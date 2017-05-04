@@ -39,7 +39,6 @@ db.once('open', () => {
   app.use((req, res, next) => {
     const ua = req.get('User-Agent');
     if (isBadRobot(ua)) {
-      log.info({ msg: 'Rechazando robot malo' });
       if (_.isObject(req.connection) && _.isFunction(req.connection.end)) {
         setTimeout(() => req.connection.end(), 5000);
       }

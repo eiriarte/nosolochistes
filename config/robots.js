@@ -1,5 +1,7 @@
 const footprints = [
-  'MediaGet'
+  'MediaGet',
+  'Torrent',
+  'BTWebClient'
 ];
 
 const badRobot = new RegExp(footprints.join('|'));
