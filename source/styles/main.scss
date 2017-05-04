@@ -1,0 +1,267 @@
+@import "variables";
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: (44/16) * 1rem;
+  background-color: $color-fondo;
+  color: $color-verde-negro;
+  font-family: $font-body;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+}
+
+.card {
+  margin: 16px 0;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 8px 4px -4px rgba(0,0,0,.2);
+  overflow: hidden;
+  &:empty {
+    display: none;
+  }
+  @media screen and (min-width: $min-sidebar) {
+    max-width: 640px;
+    padding: 16px;
+    margin: 16px;
+  }
+}
+
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  padding: 4px;
+  font-family: $font-body;
+  color: $color-verde-negro;
+}
+
+.site-header {
+  background-color: $color-verde-negro;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    max-width: 100%;
+  }
+  .left, .right {
+    padding: 8px;
+  }
+  .burger {
+    background-color: $color-verde-gris;
+  }
+  @media screen and (min-width: $min-sidebar) {
+    .right {
+      display: none;
+    }
+  }
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 44px;
+  width: 100%;
+  max-height: 100vh;
+  padding-bottom: 96px;
+  overflow: scroll;
+  z-index: 999;
+  background: white;
+  background-color: $color-verde-negro;
+  .sections {
+    border-bottom: 1px solid transparentize($color-gris-logo, 0.85);
+  }
+  h2 {
+    color: $color-gris-logo;
+    margin: 8px 8px 0;
+  }
+  ul {
+    padding: 8px 0;
+    text-align: center;
+    li {
+      a {
+        display: block;
+        padding: 8px 16px;
+        color: $color-gris-logo;
+        font-size: 1.1rem;
+        &:hover {
+          background-color: transparentize($color-fondo, 0.85);
+        }
+      }
+      &.selected {
+        background-color: transparentize($color-fondo, 0.8);
+        a {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $min-sidebar) {
+    display: block;
+    position: relative;
+    max-height: none;
+    top: auto;
+    width: auto;
+    ul {
+      text-align: left;
+    }
+  }
+  &.toggled {
+    display: block;
+  }
+  .sections :not(:first-child), h2 {
+    display: none;
+    @media screen and (min-width: $min-sidebar) {
+      display: block;
+    }
+  }
+}
+
+main {
+  padding: 8px;
+  .tabs {
+    .selected {
+      font-weight: bold;
+      background-color: $color-item-selected;
+      a {
+        color: $color-verde-gris;
+      }
+    }
+    text-align: center;
+    ul {
+      display: inline-flex;
+      width: 90%;
+      li {
+        width: 33%;
+        flex: 1;
+        background-color: $color-verde-gris;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+        &:first-child {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+        &:last-child {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        &:not(.selected):hover {
+          background-color: $color-item-hover;
+        }
+        a {
+          display: inline-block;
+          width: 100%;
+          padding: 8px;
+          color: $color-verde-negro;
+        }
+      }
+    }
+    @media screen and (min-width: $min-sidebar) {
+      display: none;
+    }
+  }
+  header.card {
+    background-color: $color-verde-gris;
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      opacity: 0.85;
+    }
+  }
+  article {
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1;
+      a {
+        color: $color-verde-negro;
+      }
+    }
+    .author {
+      line-height: 1;
+      opacity: 0.65;
+    }
+    .text {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: $min-sidebar) {
+  .content {
+    display: flex;
+    main {
+      flex: 1;
+    }
+  }
+}
+
+// Listas de chistes
+.loader {
+  margin: 16px 0;
+  height: 24px;
+  width: 100%;
+  background: url("/images/loader.gif") no-repeat center;
+  background-position-y: -9999px;
+  &.show {
+    background-position-y: 0%;
+  }
+}
+
+// /tipos-de-chistes
+.cloud {
+  text-align: center;
+  li {
+    display: inline-block;
+    a {
+      display: inline-block;
+      line-height: 1;
+      padding: 4px;
+      margin: 2px;
+      white-space: nowrap;
+      color: $color-verde-negro;
+      border: 1px solid transparentize($color-verde-negro, 0.35);
+      border-radius: 3px;
+    }
+  }
+  .level1 {
+    font-size: 1.4em;
+  }
+  .level2 {
+    font-size: 1.2em;
+  }
+}

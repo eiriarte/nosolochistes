@@ -1,0 +1,27 @@
+<!DOCTYPE html>{% import "macros.html" as macros %}
+<html lang="es">
+<head>
+  {% block head %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ macros.styles() }}
+  {% endblock %}
+</head>
+<body>
+  {{ macros.header() }}
+  <div class="content">
+    {{ macros.sidebar(id, categories) }}
+    <main role="main">
+      <header class="card">{% block header %}{% endblock %}</header>
+      {% block tabs %}
+      {% endblock %}
+      {% block content %}
+      {{ macros.lista(items, category) }}
+      {% endblock %}
+    </main>
+  </div>
+  {{ macros.analytics() }}
+  {% include "script.html" %}
+</body>
+</html>

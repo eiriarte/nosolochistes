@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <title>{{ category.title | capitalize }} | Feti-chistes</title>
+{% endblock %}
+
+{% block header %}
+  <h1>{{ category.title | capitalize }}</h1>
+{% endblock %}

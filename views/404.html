@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <title>404 – Página no encontrada | Feti-chistes</title>
+{% endblock %}
+
+{% block header %}
+  <div style="text-align: center">
+    <img src="/images/nyan.gif" style="max-width: 100%" alt="Nyan Cat">
+  </div>
+  <p>Lo sentimos, pero no hemos encontrado nada en esta dirección.
+    Más abajo puedes ver la lista completa de las {{ categories | length }}
+    categorías de chistes que tenemos en Feti-chistes.es.</p>
+{% endblock %}
+
+{% block content %}
+{% set label = [ '',
+  'Categorías principales',
+  'Categorías secundarias',
+  'Otras categorías'
+  ] %}
+  <section class="card cloud" role="navigation">
+  {% for level, cats in categories | groupby('level') %}
+    <ul class="level{{level}}" aria-label="{{ label[level] }}">
+    {% for cat in cats %}
+      <li><a href="/chistes/{{ cat._id }}">{{ cat.menu }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  </section>
+{% endblock %}
