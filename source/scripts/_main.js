@@ -4,7 +4,7 @@
   var loadingPage = false;
   var endReached = false;
   var loader;
-  
+
   document.addEventListener('DOMContentLoaded', function() {
     var btnMenu = document.getElementById('btn-menu');
     var mobileMenu = document.getElementById('nav-menu');
@@ -60,11 +60,15 @@
     items.forEach(function(item) {
       var clone = template.cloneNode(true);
       var catLink = clone.querySelector('.category a');
+      var titleLink = clone.querySelector('.title a');
       var date = clone.querySelector('.date');
-      clone.querySelector('.title').textContent = item.titulo;
       clone.querySelector('.name').textContent = item.autor;
       date.setAttribute('datetime', item.datetime);
       date.textContent = item.fecha;
+      if (titleLink) {
+        titleLink.textContent = item.titulo;
+        titleLink.setAttribute('href', '/chiste/' + item._id);
+      }
       if (catLink) {
         catLink.textContent = item.categoria.menu;
         catLink.setAttribute('href', '/chistes/' + item.categoria._id);
