@@ -8,8 +8,10 @@ const compression = require('compression');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
 const nunjucks = require('nunjucks');
+const _ = require('lodash');
 const moment = require('moment');
 const config = require('./config')
+const isBadRobot = require('./config/robots');
 const routes = require('./config/routes');
 const logger = require('./config/logger');
 const log = logger.log;
@@ -34,6 +36,17 @@ db.once('open', () => {
     express: app
   });
 
+  app.use((req, res, next) => {
+    const ua = req.get('User-Agent');
+    if (isBadRobot(ua)) {
+      log.info({ msg: 'Rechazando robot malo' });
+      if (_.isObject(req.connection) && _.isFunction(req.connection.end)) {
+        setTimeout(() => req.connection.end(), 5000);
+      }
+      return;
+    }
+    next();
+  });
   app.use(compression());
   app.use(helmet());
   app.use(express.static(config.root + config.statics));
