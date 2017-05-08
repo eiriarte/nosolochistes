@@ -10,6 +10,7 @@ const gone = [
   '/elbarbaro',
   '/mile',
   '/chistes/daltonismo',
+  '/chistes/surrealistas',
   '/chistes/dios',
   '/chistes/pulgas',
   '/chistes/bombillas',

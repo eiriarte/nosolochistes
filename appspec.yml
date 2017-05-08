@@ -3,3 +3,17 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/webapp
+permissions:
+  - object: /home/ubuntu/webapp/scripts
+    mode: 775
+    type:
+      - file
+hooks:
+  AfterInstall:
+    - location: scripts/update_dependencies
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/restart_service
+      timeout: 300
+      runas: root
