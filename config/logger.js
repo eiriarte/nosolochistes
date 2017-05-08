@@ -3,7 +3,7 @@ const Logger = require('le_node');
 const config = require('./');
 
 const leLogger = new Logger({
-  token:'46f58e1d-90b4-4dfb-9116-de343820f0d7',
+  token:'e4f3a8e9-c2a9-4877-9297-2229e50657b0',
   secure: true,
   withStack: true,
   debug: !config.production
