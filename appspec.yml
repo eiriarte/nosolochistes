@@ -9,10 +9,6 @@ permissions:
     type:
       - file
 hooks:
-  AfterInstall:
-    - location: scripts/update_dependencies
-      timeout: 300
-      runas: root
   ApplicationStart:
     - location: scripts/restart_service
       timeout: 300
