@@ -4,6 +4,7 @@ const redirs = require('../models/redirect.json');
 const categories = require('../models/categories.json');
 const config = require('./');
 const log = require('./logger').log;
+const isGone = require('./gone');
 
 module.exports = (app) => {
   /*************************************************************************
@@ -50,7 +51,8 @@ module.exports = (app) => {
    *  E R R O R   4 0 4
    */
   app.use((req, res) => {
-    res.status(404).render('404.html', { categories: categories });
+    const statusCode = isGone(req.originalUrl) ? 410 : 404;
+    res.status(statusCode).render('404.html', { categories: categories });
   });
 
   /*************************************************************************

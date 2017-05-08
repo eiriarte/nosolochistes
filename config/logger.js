@@ -23,6 +23,7 @@ exports.logRequest = (req, res, next) => {
     request['http_version'] = req.httpVersionMajor + '.' + req.httpVersionMinor;
     request['status'] = headersSent(res) ? res.statusCode : undefined;
     request['referrer'] = req.headers['referer'] || req.headers['referrer'];
+    if (!request['referrer']) delete request['referrer'];
     request['user_agent'] = req.headers['user-agent'];
     request['response_time'] = Date.now() - start;
     log.info(request);

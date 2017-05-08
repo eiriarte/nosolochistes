@@ -233,8 +233,8 @@ main {
 // Listas de chistes
 .loader {
   margin: 16px 0;
+  max-width: 640px;
   height: 24px;
-  width: 100%;
   background: url("/images/loader.gif") no-repeat center;
   background-position-y: -9999px;
   &.show {

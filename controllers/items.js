@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const moment = require('moment');
 const _ = require('lodash');
 const categories = require('../models/categories.json');
+const isGone = require('../config/gone');
 
 exports.getItem = (req, res, next) => {
   const Chiste = mongoose.model('Chiste');
@@ -21,7 +22,8 @@ exports.getCategory = (req, res, next) => {
   query.exec((err, items) => {
     if (err) return next(err);
     if (!items || !items.length) {
-      return res.status(404).render('404.html', { categories: categories });
+      const statusCode = isGone(req.originalUrl) ? 410 : 404;
+      return res.status(statusCode).render('404.html', { categories: categories });
     }
     addInfo(items);
     if (skip) {
