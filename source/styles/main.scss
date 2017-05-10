@@ -45,6 +45,10 @@ a {
   background-color: white;
   box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 8px 4px -4px rgba(0,0,0,.2);
   overflow: hidden;
+  h1, h2 {
+    font-family: $font-header;
+    font-weight: normal;
+  }
   &:empty {
     display: none;
   }
