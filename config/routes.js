@@ -26,6 +26,7 @@ module.exports = (app) => {
     res.redirect(301, '/chistes/' + req.params.tag);
   });
   app.get('/chistes-recientes', (req, res) => res.redirect(301, '/'));
+  app.get('/index.php', (req, res) => res.redirect(301, '/'));
   app.get('/mejores-chistes', (req, res) => res.redirect(301, '/chistes-buenos'));
 
 
