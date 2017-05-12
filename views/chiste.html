@@ -15,7 +15,11 @@
     </header>
     <div class="text">{{ chiste.texto | striptags(true) | escape | nl2br }}</div>
     <footer>
-      <small class="category">Archivado en: <a href="/chistes/{{ chiste.categoria._id }}">{{ chiste.categoria.menu }}</a></small>
+      <small class="category"><i class="fa fa-folder-open" title="Categoría"></i><a href="/chistes/{{ chiste.categoria._id }}">{{ chiste.categoria.menu }}</a></small>
+      <span class="actions">
+        <button type="button" class="btn vote up" id="vup:{{ chiste._id }}" aria-pressed="false"><i class="fa fa-thumbs-up fa-lg" title="Me gusta"></i><span class="nvotes">{{ chiste.ups }}</span><span class="sr-only"> votos positivos</span></button>
+        <button type="button" class="btn vote down" id="vdown:{{ chiste._id }}" aria-pressed="false"><i class="fa fa-thumbs-down fa-lg" title="No me gusta"></i><span class="nvotes">{{ chiste.downs }}</span><span class="sr-only"> votos negativos</span></button>
+      </span>
     </footer>
   </article>
 {% endblock %}

@@ -93,6 +93,29 @@ exports.getCortos = (req, res, next) => {
   });
 };
 
+exports.itemAction = (req, res, next) => {
+  const Chiste = mongoose.model('Chiste');
+  const update = { $inc: { }};
+  const isDownVote = req.body.action === 'vdown';
+  if (isDownVote) {
+    update.$inc.downs = 1;
+    update.$inc.valoracion = -1;
+    if (req.body.reverse) update.$inc.ups = -1;
+  } else {
+    update.$inc.ups = 1;
+    update.$inc.valoracion = 1;
+    if (req.body.reverse) update.$inc.downs = -1;
+  }
+  Chiste.findByIdAndUpdate(req.params.item, update, { new: true }, (err, item) => {
+    if (err) return next(err);
+    if (!item) return res.status(500).json({ msg: 'No se ha encontrado el item. '});
+    res.json({
+      votes: isDownVote ? item.downs : item.ups,
+      otherVotes: isDownVote ? item.ups : item.downs
+    });
+  })
+};
+
 function getQuery(conditions, skip, sort) {
   const Chiste = mongoose.model('Chiste');
   const select = '_id titulo texto autor fecha categoria ups downs';

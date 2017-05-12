@@ -1,3 +1,4 @@
+const jsonParser = require('body-parser').json();
 const items = require('../controllers/items');
 const sitemap = require('../controllers/sitemap');
 const redirs = require('../models/redirect.json');
@@ -41,6 +42,8 @@ module.exports = (app) => {
   app.get('/tipos-de-chistes', (req, res) => {
     res.render('categorias.html', { categories: categories });
   });
+
+  app.post('/chiste/:item/action', jsonParser, items.itemAction);
 
 
   /*************************************************************************

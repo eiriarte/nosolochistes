@@ -38,6 +38,17 @@ a {
   text-decoration: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
 .card {
   margin: 16px 0;
   padding: 8px;
@@ -221,6 +232,37 @@ main {
     }
     .text {
       margin-top: 1rem;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+      a, .actions {
+        white-space: nowrap;
+      }
+      .category {
+        i {
+          color: darken($color-gris-logo, 30%);
+          margin-right: 8px;
+        }
+      }
+      .actions {
+        .btn {
+          padding: 8px;
+          background: none;
+          color: $color-gris-logo;
+          span {
+            margin-left: 4px;
+          }
+          &.pressed {
+            color: $color-verde-negro;
+          }
+          &:not(.pressed):hover {
+            color: darken($color-gris-logo, 30%);
+          }
+        }
+      }
     }
   }
 }
