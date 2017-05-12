@@ -51,7 +51,7 @@ a {
 
 .card {
   margin: 16px 0;
-  padding: 8px;
+  padding: 16px;
   border-radius: 5px;
   background-color: white;
   box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 8px 4px -4px rgba(0,0,0,.2);
@@ -65,7 +65,6 @@ a {
   }
   @media screen and (min-width: $min-sidebar) {
     max-width: 640px;
-    padding: 16px;
     margin: 16px;
   }
 }
@@ -179,6 +178,7 @@ main {
       }
     }
     text-align: center;
+    margin-top: 8px;
     ul {
       display: inline-flex;
       width: 90%;
