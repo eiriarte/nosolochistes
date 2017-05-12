@@ -1,5 +1,6 @@
 const jsonParser = require('body-parser').json();
 const items = require('../controllers/items');
+const admin = require('../controllers/admin');
 const sitemap = require('../controllers/sitemap');
 const redirs = require('../models/redirect.json');
 const categories = require('../models/categories.json');
@@ -45,6 +46,11 @@ module.exports = (app) => {
 
   app.post('/chiste/:item/action', jsonParser, items.itemAction);
 
+  /*************************************************************************
+   *  A D M I N I S T R A C I Ó N
+   */
+  app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new', admin.newItem);
+  app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push', jsonParser, admin.pushItem);
 
   /*************************************************************************
    *  S I T E M A P

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Nuevo chiste</title>
+	<link rel="stylesheet" type="text/css" href="/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new.css" media="all">
+  <script src="/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new.js" charset="utf-8"></script>
+</head>
+<!--
+    texto: textarea
+    _id: textfield
+    titulo: textfield
+    categoria: textfield
+    tags: textfield
+    autor: textfield
+    portada: checkbox
+    fecha: ===> default: Date.now
+    corto: ===> EN EL SERVIDOR
+ -->
+<body id="main_body" >
+	<div id="form_container">
+		<h1><a>Nuevo chiste</a></h1>
+		<form class="appnitro" id="formChiste">
+			<div class="form_description">
+				<h2>Nuevo chiste</h2>
+				<p></p>
+			</div>
+			<ul >
+				<li id="li_3" >
+					<label class="description" for="titulo">Título </label>
+					<div>
+						<input id="titulo" name="titulo" class="element text large" type="text" maxlength="255" value=""/>
+					</div>
+				</li>		<li id="li_2" >
+					<label class="description" for="_id">ID </label>
+					<div>
+						<input id="_id" name="_id" class="element text medium" type="text" maxlength="255" value=""/>
+					</div>
+				</li>		<li id="li_1" >
+					<label class="description" for="texto">Chiste </label>
+					<div>
+						<textarea id="texto" name="texto" class="element textarea large"></textarea>
+					</div>
+				</li>		<li id="li_7" >
+					<label class="description" for="categoria">Categoría </label>
+					<div>
+						<select class="element select medium" id="categoria" name="categoria">
+							<option value="null" selected="selected"></option>
+              <option value="abogados">abogados</option>
+              <option value="animales">animales</option>
+              <option value="borrachos">borrachos</option>
+              <option value="chinos">chinos</option>
+              <option value="feministas">feministas</option>
+              <option value="feos">feos</option>
+              <option value="gordos">gordos</option>
+              <option value="humor-negro">humor negro</option>
+              <option value="matematicos">matemáticos</option>
+              <option value="medicos">médicos</option>
+              <option value="navidad">navidad</option>
+              <option value="ninos">niños</option>
+              <option value="novios">novios</option>
+              <option value="pepito">pepito</option>
+              <option value="politicos">políticos</option>
+              <option value="preguntas-respuestas">preguntas y respuestas</option>
+              <option value="suegras">suegras</option>
+              <option value="toc-toc">toc-toc</option>
+              <option value="tontos">tontos</option>
+              <option value="verdes">verdes</option>
+							<option value="null">––––</option>
+              <option value="abuelos">abuelos</option>
+              <option value="adivinanzas">adivinanzas</option>
+              <option value="amigos">amigos</option>
+              <option value="comida">comida</option>
+              <option value="curas">curas</option>
+              <option value="drogados">drogados</option>
+              <option value="en-que-se-parece">en qué se parece…</option>
+              <option value="estudiantes">estudiantes</option>
+              <option value="farmacia">farmacia</option>
+              <option value="informaticos">informáticos</option>
+              <option value="juegos-de-palabras">juegos de palabras</option>
+              <option value="locos">locos</option>
+              <option value="mama-mama">Mamá, mamá…</option>
+              <option value="matrimonios">matrimonios</option>
+              <option value="musicos">músicos</option>
+              <option value="parejas">parejas</option>
+              <option value="psicologos">psicólogos</option>
+              <option value="telefono">teléfono</option>
+              <option value="vascos">vascos</option>
+              <option value="viejitos">viejitos</option>
+							<option value="null">––––</option>
+              <option value="tan-tan">Tan, tan…</option>
+              <option value="andaluces">andaluces</option>
+              <option value="batman">batman</option>
+              <option value="bizcos">bizcos</option>
+              <option value="burocratas">burócratas</option>
+              <option value="cafe">café</option>
+              <option value="cerveza">cerveza</option>
+              <option value="ciegos">ciegos</option>
+              <option value="ciencia">ciencia</option>
+              <option value="comparaciones">comparaciones</option>
+              <option value="escatologicos">escatológicos</option>
+              <option value="famosos">famosos</option>
+              <option value="groserias">groserías</option>
+              <option value="historia">historia</option>
+              <option value="idiomas">idiomas</option>
+              <option value="jefes-empleados">jefes y empleados</option>
+              <option value="monjas">monjas</option>
+              <option value="padres-hijos">padres e hijos</option>
+              <option value="playa">playa</option>
+              <option value="policias">policías</option>
+              <option value="religiosos">religiosos</option>
+              <option value="se-abre-el-telon">se abre el telón</option>
+              <option value="soldados">soldados</option>
+              <option value="sordos">sordos</option>
+              <option value="zombies">zombies</option>
+						</select>
+					</div>
+				</li>		<li id="li_4" >
+					<label class="description" for="tags">Tags </label>
+					<div>
+						<input id="tags" name="tags" class="element text large" type="text" maxlength="255" value=""/>
+					</div>
+				</li>		<li id="li_5" >
+					<label class="description" for="autor">Autor </label>
+					<div>
+						<input id="autor" name="autor" class="element text medium" type="text" maxlength="255" value=""/>
+					</div>
+				</li>		<li id="li_6" >
+					<span>
+						<input id="portada" name="portada" class="element checkbox" type="checkbox" value="1" />
+						<label class="choice" for="portada">Mostrar en Portada</label>
+					</span>
+				</li>
+				<li class="buttons">
+					<button type="button" id="submit">Enviar</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</body>
+</html>

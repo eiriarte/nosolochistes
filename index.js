@@ -29,6 +29,7 @@ db.on('error', () => {
 db.once('open', () => {
   const app = express();
   require('./models/items.js');
+  require('./models/cola.js');
 
   nunjucks.configure('views', {
     autoescape: true,
