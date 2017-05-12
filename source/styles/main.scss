@@ -98,7 +98,9 @@ a {
     padding: 8px;
   }
   .burger {
-    background-color: $color-verde-gris;
+    padding: 0;
+    background: none;
+    color: $color-verde-gris;
   }
   @media screen and (min-width: $min-sidebar) {
     .right {
