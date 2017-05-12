@@ -1,8 +1,13 @@
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
     var btnSubmit = document.getElementById('submit');
+    var cCount = document.querySelector('.ccount');
     btnSubmit.onclick = submit;
     document.getElementById('titulo').focus();
+
+    document.getElementById('texto').onkeyup = function() {
+      cCount.textContent = this.textLength;
+    }
   });
 
   function submit() {

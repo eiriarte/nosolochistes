@@ -13,6 +13,12 @@ body
 	font-size: 18px;
 }
 
+.ccount {
+	float: right;
+	font-weight: normal;
+	opacity: 0.65;
+}
+
 #form_container
 {
 	background:#fff;
