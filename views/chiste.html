@@ -10,7 +10,7 @@
     <header>
       <h2 class="title"><a href="/chiste/{{ chiste._id }}">{{ chiste.titulo }}</a></h2>
       <small class="author">Enviado por <em class="name">{{ chiste.autor }}</em>,
-        el <time datetime="{{ chiste.datetime }}">{{ chiste.fecha }}</time>
+        <time datetime="{{ chiste.datetime }}">{{ chiste.fecha }}</time>
       </small>
     </header>
     <div class="text">{{ chiste.texto | striptags(true) | escape | nl2br }}</div>

@@ -67,7 +67,7 @@
       <header>
         <h2 class="title"><a href="/chiste/{{ item._id }}">{{ item.titulo }}</a></h2>
         <small class="author">Enviado por <em class="name">{{ item.autor }}</em>,
-          el <time class="date" datetime="{{ item.datetime }}">{{ item.fecha }}</time>
+          <time class="date" datetime="{{ item.datetime }}">{{ item.fecha }}</time>
         </small>
       </header>
       <div class="text">{{ item.texto | striptags(true) | escape | nl2br }}</div>
