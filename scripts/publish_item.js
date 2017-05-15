@@ -1,7 +1,7 @@
 var conn = new Mongo();
 var db = conn.getDB('fch');
 
-var item = db.cola.find().sort({ fecha: -1 }).limit(1).toArray()[0];
+var item = db.cola.find().sort({ fecha: 1 }).limit(1).toArray()[0];
 
 if (!item) quit();
 
