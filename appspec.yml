@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/webapp
+permissions:
+  - object: /home/ubuntu/webapp/scripts
+    mode: 775
+    type:
+      - file
