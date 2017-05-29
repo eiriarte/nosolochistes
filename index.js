@@ -33,6 +33,7 @@ db.once('open', () => {
 
   nunjucks.configure('views', {
     autoescape: true,
+    trimBlocks: true,
     watch: config.watchTemplates,
     express: app
   });
