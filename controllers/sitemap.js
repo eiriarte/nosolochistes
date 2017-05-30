@@ -59,7 +59,7 @@ function getSitemapItems(items) {
 }
 
 function lastMod(fecha) {
-  const launch = new Date(2017, 4, 1);
+  const launch = new Date(2017, 4, 30);
   let date = launch;
   if (_.isDate(fecha) && fecha > launch)  {
     date = fecha;
