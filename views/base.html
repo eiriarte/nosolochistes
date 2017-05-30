@@ -13,9 +13,9 @@
   <div class="content">
     {{ macros.sidebar(id, categories) }}
     <main role="main">
-      <header class="card">{% block header %}{% endblock %}</header>
       {% block tabs %}
       {% endblock %}
+      <header class="card">{% block header %}{% endblock %}</header>
       {% block content %}
       {{ macros.lista(items, category) }}
       {% endblock %}

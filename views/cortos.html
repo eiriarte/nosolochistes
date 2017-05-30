@@ -3,9 +3,13 @@
 {% block head %}
   {{ super() }}
   <title>Chistes cortos | Feti-chistes</title>
+  <meta name="description" content="Aquí tienes todos los chistes cortos de nuestra selección. Algunos son tan cortos que estás más tiempo riéndote que contándolos.">
 {% endblock %}
 
-{% block header %}{% endblock %}
+{% block header %}
+<h1>Chistes cortos</h1>
+<p>Aquí tienes <strong>todos los chistes cortos</strong> de nuestra selección (menos de 200 caracteres). Algunos son tan cortos que estás más tiempo riéndote que contándolos.</p>
+{% endblock %}
 
 {% block tabs %}
 {{ macros.tabs(id)}}

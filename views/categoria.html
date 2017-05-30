@@ -1,10 +1,18 @@
 {% extends "base.html" %}
 
+{% if category.description %}
+  {% set description = category.description %}
+{% else %}
+  {% set description %}Los {{ category.title | lower }} más graciosos, cortos, largos, y de todos los colores. Respira hondo y prepárate a reír un rato.{% endset %}
+{% endif %}
+
 {% block head %}
   {{ super() }}
-  <title>{{ category.title | capitalize }} | Feti-chistes</title>
+  <meta name="description" content="{{ description }}">
+  <title>{{ category.title }} | Feti-chistes</title>
 {% endblock %}
 
 {% block header %}
-  <h1>{{ category.title | capitalize }}</h1>
+  <h1>{{ category.title }}</h1>
+  <p>{{ description }}</p>
 {% endblock %}

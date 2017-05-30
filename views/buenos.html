@@ -3,9 +3,14 @@
 {% block head %}
   {{ super() }}
   <title>Chistes buenos, no… ¡Buenérrimos! | Feti-chistes</title>
+  <meta name="description" content="Prepárate a llorar de risa con los chistes más votados de nuestra selección. Chistes buenos de todas las categorías, cortos y largos, verdes, blancos y negros…">
 {% endblock %}
 
-{% block header %}{% endblock %}
+{% block header %}
+  <h1>Chistes buenos</h1>
+  <p>Chistes buenos de todas las categorías, cortos y largos, verdes, blancos y negros…</p>
+  <p>Prepárate a llorar de risa… con los <strong>chistes más votados</strong> de nuestra selección.</p>
+{% endblock %}
 
 {% block tabs %}
 {{ macros.tabs(id)}}
