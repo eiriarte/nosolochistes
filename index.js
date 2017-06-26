@@ -17,7 +17,7 @@ const logger = require('./config/logger');
 const log = logger.log;
 
 mongoose.Promise = global.Promise
-mongoose.connect(config.dbURI);
+mongoose.connect(config.dbURI, { useMongoClient: true });
 const db = mongoose.connection;
 
 moment.locale('es');
