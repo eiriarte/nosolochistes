@@ -1,9 +1,25 @@
 const footprints = [
-  'MediaGet',
-  'Torrent',
+  '360Spider',
+  '80legs',
+  'AhrefsBot',
+  'BlackWidow',
   'BTWebClient',
+  'Grafula',
+  'HomePageBot',
   'Jorgee',
-  '360Spider'
+  'kmccrew',
+  'LeechFTP',
+  'MediaGet',
+  'MegaIndex',
+  'Scrapy',
+  'Semrush',
+  'SISTRIX',
+  'Torrent',
+  'TurnitinBot',
+  'WebReaper',
+  'WebStripper',
+  'WebWhacker',
+  'WebZIP'
 ];
 
 const badRobot = new RegExp(footprints.join('|'));
