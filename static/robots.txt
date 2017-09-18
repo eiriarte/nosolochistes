@@ -1,142 +1,142 @@
 Sitemap: https://feti-chistes.es/sitemap.xml
 
 User-agent: Googlebot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Adsbot-Google
-Allow: /
+Disallow: /chiste/
 
 User-agent: Alexabot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Applebot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Architextspider
-Allow: /
+Disallow: /chiste/
 
 User-agent: Baiduspider
-Allow: /
+Disallow: /chiste/
 
 User-agent: Bender
-Allow: /
+Disallow: /chiste/
 
 User-agent: Bingbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Birubot
-Allow: /
+Disallow: /chiste/
 
 User-agent: BlogPulseLive
-Allow: /
+Disallow: /chiste/
 
 User-agent: ClarityBot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Coccoc
-Allow: /
+Disallow: /chiste/
 
 User-agent: Daumoa
-Allow: /
+Disallow: /chiste/
 
 User-agent: Duckduckbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Fast
-Allow: /
+Disallow: /chiste/
 
 User-agent: Feedfetcher-Google
-Allow: /
+Disallow: /chiste/
 
 User-agent: Googlebot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Googlebot-Image
-Allow: /
+Disallow: /chiste/
 
 User-agent: Googlebot-Mobile
-Allow: /
+Disallow: /chiste/
 
 User-agent: Googlebot-News
-Allow: /
+Disallow: /chiste/
 
 User-agent: Googlebot-Video
-Allow: /
+Disallow: /chiste/
 
 User-agent: Gulliver
-Allow: /
+Disallow: /chiste/
 
 User-agent: Ia_Archiver
-Allow: /
+Disallow: /chiste/
 
 User-agent: iisbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Jikespider
-Allow: /
+Disallow: /chiste/
 
 User-agent: Lycos_Spider_(T-Rex)
-Allow: /
+Disallow: /chiste/
 
 User-agent: Mail.Ru_Bot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Mediapartners-Google
-Allow: /
+Disallow: /chiste/
 
 User-agent: Msnbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Msnbot-Media
-Allow: /
+Disallow: /chiste/
 
 User-agent: Msnptc
-Allow: /
+Disallow: /chiste/
 
 User-agent: Naverbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Nutch
-Allow: /
+Disallow: /chiste/
 
 User-agent: Quickobot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Rogerbot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Scooter
-Allow: /
+Disallow: /chiste/
 
 User-agent: Seznambot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Slurp
-Allow: /
+Disallow: /chiste/
 
 User-agent: StackRambler
-Allow: /
+Disallow: /chiste/
 
 User-agent: Surveybot
-Allow: /
+Disallow: /chiste/
 
 User-agent: Teoma
-Allow: /
+Disallow: /chiste/
 
 User-agent: Twitterbot/1.0
-Allow: /
+Disallow: /chiste/
 
 User-agent: Vscooter
-Allow: /
+Disallow: /chiste/
 
 User-agent: Yandex
-Allow: /
+Disallow: /chiste/
 
 User-agent: Yeti
-Allow: /
+Disallow: /chiste/
 
 User-agent: Zyborg
-Allow: /
+Disallow: /chiste/
 
 User-agent: *
 Disallow: /
