@@ -20,15 +20,28 @@
   <div class="content">
     {{ macros.sidebar(id, categories) }}
     <main role="main">
-      {% block tabs %}
-      {% endblock %}
-      <header class="card">{% block header %}{% endblock %}</header>
-      {% block content %}
-      {{ macros.lista(items, category) }}
-      {% endblock %}
+      <div class="lista">
+        {% block tabs %}
+        {% endblock %}
+        <header class="card">{% block header %}{% endblock %}</header>
+        {% block content %}
+        {{ macros.lista(items, category) }}
+        {% endblock %}
+      </div>
+      <div class="rightside">
+        <!-- FCH - Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:600px"
+             data-ad-client="ca-pub-3251472122625108"
+             data-ad-slot="1858189073"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
     </main>
   </div>
   {{ macros.analytics() }}
+  {{ macros.cookies() }}
   {% include "script.html" %}
 </body>
 </html>

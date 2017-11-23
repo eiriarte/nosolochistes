@@ -121,7 +121,7 @@ a {
   z-index: 999;
   background: white;
   background-color: $color-verde-negro;
-  .sections {
+  .sections, [role=navigation] {
     border-bottom: 1px solid transparentize($color-gris-logo, 0.85);
   }
   h2 {
@@ -136,7 +136,7 @@ a {
         display: block;
         padding: 8px 16px;
         color: $color-gris-logo;
-        font-size: 1.1rem;
+        font-size: 1.1em;
         &:hover {
           background-color: transparentize($color-fondo, 0.85);
         }
@@ -148,6 +148,10 @@ a {
         }
       }
     }
+  }
+  .footer {
+    font-size: 0.9em;
+    opacity: 0.8;
   }
   @media screen and (min-width: $min-sidebar) {
     display: block;
@@ -275,6 +279,10 @@ main {
     display: flex;
     main {
       flex: 1;
+      display: flex;
+      .rightside {
+        padding: 16px;
+      }
     }
   }
 }
@@ -288,6 +296,39 @@ main {
   background-position-y: -9999px;
   &.show {
     background-position-y: 0%;
+  }
+}
+
+.cconsent {
+  display: none; // Se muestra por javascript
+  position: fixed;
+  z-index: 9999;
+  width: 90%;
+  bottom: 0;
+  margin: 16px 5%;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 224, 0.9);
+  border: 1px solid rgba(38, 38, 38, 0.9);
+  &.visible {
+    display: block;
+  }
+  .block {
+    white-space: nowrap;
+  }
+  .close {
+    margin-left: 8px;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 2px;
+    background-color: darkslategrey;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
   }
 }
 

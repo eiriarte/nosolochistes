@@ -7,6 +7,8 @@
   var ups, downs;
 
   document.addEventListener('DOMContentLoaded', function() {
+    var cookieConsent = document.querySelector('.cconsent');
+    var cconsentFlagURL = 'https://d2pcbc801cuv3o.cloudfront.net/cconsent.json';
     var btnMenu = document.getElementById('btn-menu');
     var mobileMenu = document.getElementById('nav-menu');
     loader = document.querySelector('.loader');
@@ -23,6 +25,26 @@
     loadVotes();
     updateButtons();
     addVoteListeners();
+
+    // Cookie Law
+    if (!localStorage || !localStorage.getItem('duendes-cc')) {
+      // Comprobamos si puede acceder a una URL georestringida a la UE
+      ajax(cconsentFlagURL, function(error, data) {
+        if (data && data.location === 'europe') {
+          // Mostrar el aviso de cookies
+          cookieConsent.className += ' visible';
+          document.querySelector('.cconsent .close').onclick = function() {
+            // Ocultar el aviso de cookies
+            cookieConsent.className = 'cconsent';
+            // No mostrar más veces
+            if (localStorage) localStorage.setItem('duendes-cc', '1');
+          }
+        } else {
+          // No intentar mostrar más veces
+          if (localStorage) localStorage.setItem('duendes-cc', '1');
+        }
+      });
+    }
   });
 
   function loadVotes() {
@@ -138,7 +160,7 @@
     items.forEach(function(item) {
       page.appendChild(newItem(item, template));
     });
-    document.querySelector('main').insertBefore(page, loader);
+    document.querySelector('main .lista').insertBefore(page, loader);
     updateButtons();
     addVoteListeners();
     numPage++;

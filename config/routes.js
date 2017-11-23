@@ -43,6 +43,9 @@ module.exports = (app) => {
   app.get('/tipos-de-chistes', (req, res) => {
     res.render('categorias.html', { categories: categories });
   });
+  app.get('/aviso', (req, res) => {
+    res.render('avisos.html');
+  });
 
   app.post('/chiste/:item/action', jsonParser, items.itemAction);
 
