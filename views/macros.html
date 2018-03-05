@@ -100,7 +100,7 @@
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     </aside>
-    {% elif loop.last %}
+    {% elif (loop.last and loop.length <=8) or (loop.index == 8 and not loop.last) %}
     <aside class="mb-only see-also card">
       <h2 class="title">Más categorías</h2>
       <ul>
