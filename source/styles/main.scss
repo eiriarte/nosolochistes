@@ -308,18 +308,6 @@ main {
   }
 }
 
-// Listas de chistes
-.loader {
-  margin: 16px 0;
-  max-width: 640px;
-  height: 24px;
-  background: url("/images/loader.gif") no-repeat center;
-  background-position-y: -9999px;
-  &.show {
-    background-position-y: 0%;
-  }
-}
-
 .cconsent {
   display: none; // Se muestra por javascript
   position: fixed;
@@ -374,5 +362,21 @@ main {
   }
   .level2 {
     font-size: 1.2em;
+  }
+}
+
+// Paginación
+.pags {
+  text-align: center;
+  padding: 12px 0 24px;
+}
+
+.pag {
+  color: white;
+  background-color: $color-verde-negro;
+  padding: 12px 18px;
+  box-shadow: 1px 1px 2px $color-verde-negro;
+  &:hover {
+    background-color: #2b401f;
   }
 }

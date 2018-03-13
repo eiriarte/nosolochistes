@@ -8,7 +8,9 @@
 
 {% block header %}
 <h1>Chistes cortos</h1>
+{% if not paginacion.anterior %}
 <p>Aquí tienes <strong>todos los chistes cortos</strong> de nuestra selección (menos de 200 caracteres). Algunos son tan cortos que estás más tiempo riéndote que contándolos.</p>
+{% endif %}
 {% endblock %}
 
 {% block tabs %}

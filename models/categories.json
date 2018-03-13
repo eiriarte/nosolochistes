@@ -2,7 +2,7 @@
   {
     "_id" : "abogados",
     "menu" : "abogados",
-    "title" : "Chistes de abogados",
+    "title" : "Chistes de Abogados",
     "volume" : 3350,
     "level" : 1,
     "description" : "Los mejores chistes de abogados. Son tan buenos… que perderás el juicio!!!"
@@ -10,7 +10,7 @@
   {
     "_id" : "animales",
     "menu" : "animales",
-    "title" : "Chistes de animales",
+    "title" : "Chistes de Animales",
     "volume" : 5050,
     "level" : 1,
     "description" : "Va un caracol y derrapa… Ejem… No, en serio, no te pierdas los mejores chistes de animales de toda la jungla."
@@ -18,7 +18,7 @@
   {
     "_id" : "borrachos",
     "menu" : "borrachos",
-    "title" : "Chistes de borrachos",
+    "title" : "Chistes de Borrachos",
     "volume" : 28490,
     "level" : 1,
     "description" : "Estos chistes de borrachos son tan graciosos que darían positivo en un test de alcoholemia. Ideales para contarlos en el bar de la esquina."
@@ -26,7 +26,7 @@
   {
     "_id" : "chinos",
     "menu" : "chinos",
-    "title" : "Chistes de chinos",
+    "title" : "Chistes de Chinos",
     "volume" : 7860,
     "level" : 1,
     "description" : "Bello idioma, el chino. Bello e incomprensible. Amplía tus horizontes con los chistes de chinos más 笑话. Por cierto, ¿cómo se dirá «chiste» en chino?"
@@ -34,7 +34,7 @@
   {
     "_id" : "feministas",
     "menu" : "feministas",
-    "title" : "chistes feministas",
+    "title" : "Chistes Feministas",
     "volume" : 19167,
     "level" : 1,
     "description" : "¡Guerra de sexos! ¡Chistes feministas! ¿Sabías que las mujeres se ríen un 127% más que los hombres? ¿Será porque los hombres dan risa?"
@@ -42,7 +42,7 @@
   {
     "_id" : "feos",
     "menu" : "feos",
-    "title" : "Chistes de feos",
+    "title" : "Chistes de Feos",
     "volume" : 3540,
     "level" : 1,
     "description" : "Los mejores chistes de feos, dedicados a esa gente poco agraciada, de rostro interesante, díficil de mirar… o simplemente más fea que pegarle a un padre."
@@ -50,7 +50,7 @@
   {
     "_id" : "gordos",
     "menu" : "gordos",
-    "title" : "Chistes de gordos",
+    "title" : "Chistes de Gordos",
     "volume" : 10020,
     "level" : 1,
     "description" : "Ya lo decía Obelix: «Yo no estoy gordo, es que soy bajo de tórax». Aquí van unos cuantos chistes dedicados a esas personas “fuertecitas” o “de huesos anchos”."
@@ -58,7 +58,7 @@
   {
     "_id" : "humor-negro",
     "menu" : "humor negro",
-    "title" : "Chistes de humor negro",
+    "title" : "Chistes de Humor Negro",
     "volume" : 12690,
     "level" : 1,
     "description" : "Los más divertidos y crueles chistes de humor negro. Algunos definitivamente no son para todos los públicos. Humor negrísimo para reírte hasta de tu sombra."
@@ -66,7 +66,7 @@
   {
     "_id" : "matematicos",
     "menu" : "matemáticos",
-    "title" : "chistes matemáticos",
+    "title" : "Chistes Matemáticos",
     "volume" : 8670,
     "level" : 1,
     "description" : "¿Quién dijo que las matemáticas no pueden ser divertidas? Los chistes de senos y cosenos pueden ser algo complejos, pero nunca se salen por la tangente."
@@ -74,7 +74,7 @@
   {
     "_id" : "medicos",
     "menu" : "médicos",
-    "title" : "Chistes de médicos",
+    "title" : "Chistes de Médicos",
     "volume" : 3740,
     "level" : 1,
     "description" : "Chistes de médicos, no aptos para hipocondríacos. Pero, como dice mi dermatólogo: «Vayamos al grano»."
@@ -82,7 +82,7 @@
   {
     "_id" : "navidad",
     "menu" : "navidad",
-    "title" : "Chistes de navidad",
+    "title" : "Chistes de Navidad",
     "volume" : 10420,
     "level" : 1,
     "description" : "No te pierdas estos entrañables chistes navideños, ideales para contar entre polvorón y polvorón."
@@ -90,7 +90,7 @@
   {
     "_id" : "ninos",
     "menu" : "niños",
-    "title" : "Chistes de niños",
+    "title" : "Chistes de Niños",
     "volume" : 14870,
     "level" : 1,
     "description" : "Sin duda, los niños son los que más ríen y los que más hacen reír. Prepárate a reír con estos chistes de niños inocentes y desprejuiciados."
@@ -98,7 +98,7 @@
   {
     "_id" : "novios",
     "menu" : "novios",
-    "title" : "Chistes de novios",
+    "title" : "Chistes de Novios",
     "volume" : 4680,
     "level" : 1,
     "description" : "No te pierdas estos… ejem… románticos chistes de novios, ideales para contar en San Valentín. A veces, a Cupido parece que le falla el pulso…"
@@ -114,7 +114,7 @@
   {
     "_id" : "politicos",
     "menu" : "políticos",
-    "title" : "Chistes de políticos",
+    "title" : "Chistes de Políticos",
     "volume" : 4660,
     "level" : 1,
     "description" : "Nuestros políticos no serán muy competentes, pero al menos dan mucha risa. He aquí varios ejemplos."
@@ -122,7 +122,7 @@
   {
     "_id" : "preguntas-respuestas",
     "menu" : "preguntas y respuestas",
-    "title" : "Chistes de preguntas y respuestas",
+    "title" : "Chistes de Preguntas y Respuestas",
     "volume" : 4390,
     "level" : 1,
     "description" : "Chistes con preguntas capciosas, con respuestas chistosas. Ya lo dijo el sabio: no hay preguntas indiscretas, sino respuestas imprudentes."
@@ -130,7 +130,7 @@
   {
     "_id" : "suegras",
     "menu" : "suegras",
-    "title" : "Chistes de suegras",
+    "title" : "Chistes de Suegras",
     "volume" : 11550,
     "level" : 1,
     "description" : "Reconócelo, tu suegra te trata como a Dios: Sabe que existes, pero no te puede ver. Ahí van unos chistes de suegras, para amenizar la barbacoa del domingo."
@@ -138,7 +138,7 @@
   {
     "_id" : "toc-toc",
     "menu" : "toc-toc",
-    "title" : "Chistes de \"toc toc… ¿Quién es?\"",
+    "title" : "Chistes de \"Toc toc… ¿Quién es?\"",
     "volume" : 9940,
     "level" : 1,
     "description" : "¡Toc, toc! ¡Llaman a la puerta! ¿Quién podrá ser? No te quedes con la intriga, pasa y disfruta con estos chistes de «toc, toc»."
@@ -146,7 +146,7 @@
   {
     "_id" : "tontos",
     "menu" : "tontos",
-    "title" : "chistes tontos",
+    "title" : "Chistes Tontos",
     "volume" : 12030,
     "level" : 1,
     "description" : "Los chistes más absurdos, protagonizados por individuos tan tontos, tan garrulos, tan tarugos, que darían encefalograma plano."
@@ -154,7 +154,7 @@
   {
     "_id" : "verdes",
     "menu" : "verdes",
-    "title" : "chistes verdes",
+    "title" : "Chistes Verdes",
     "volume" : 122780,
     "level" : 1,
     "description" : "También llamados chistes rojos, colorados, o simplemente «picantes». En fin, chistes no aptos para niños menores de 28 años, ni para mojigatos en general."
@@ -162,315 +162,315 @@
   {
     "_id" : "abuelos",
     "menu" : "abuelos",
-    "title" : "Chistes de abuelos",
+    "title" : "Chistes de Abuelos",
     "volume" : 870,
     "level" : 2
   },
   {
     "_id" : "adivinanzas",
     "menu" : "adivinanzas",
-    "title" : "Chistes de adivinanzas",
+    "title" : "Chistes de Adivinanzas",
     "volume" : 2450,
     "level" : 2
   },
   {
     "_id" : "amigos",
     "menu" : "amigos",
-    "title" : "chistes para amigos",
+    "title" : "Chistes para Amigos",
     "volume" : 900,
     "level" : 2
   },
   {
     "_id" : "comida",
     "menu" : "comida",
-    "title" : "Chistes de comida",
+    "title" : "Chistes de Comida",
     "volume" : 1380,
     "level" : 2
   },
   {
     "_id" : "curas",
     "menu" : "curas",
-    "title" : "Chistes de curas",
+    "title" : "Chistes de Curas",
     "volume" : 1030,
     "level" : 2
   },
   {
     "_id" : "drogados",
     "menu" : "drogados",
-    "title" : "Chistes de drogados",
+    "title" : "Chistes de Drogados",
     "volume" : 860,
     "level" : 2
   },
   {
     "_id" : "en-que-se-parece",
     "menu" : "en qué se parece…",
-    "title" : "Chistes de \"en qué se parece…\"",
+    "title" : "Chistes de \"En qué se parece…\"",
     "volume" : 1000,
     "level" : 2
   },
   {
     "_id" : "estudiantes",
     "menu" : "estudiantes",
-    "title" : "Chistes de estudiantes",
+    "title" : "Chistes de Estudiantes",
     "volume" : 900,
     "level" : 2
   },
   {
     "_id" : "farmacia",
     "menu" : "farmacia",
-    "title" : "Chistes de farmacia",
+    "title" : "Chistes de Farmacia",
     "volume" : 860,
     "level" : 2
   },
   {
     "_id" : "informaticos",
     "menu" : "informáticos",
-    "title" : "Chistes de informáticos",
+    "title" : "Chistes de Informáticos",
     "volume" : 2770,
     "level" : 2
   },
   {
     "_id" : "juegos-de-palabras",
     "menu" : "juegos de palabras",
-    "title" : "chistes con juegos de palabras",
+    "title" : "Chistes con Juegos de Palabras",
     "volume" : 850,
     "level" : 2
   },
   {
     "_id" : "locos",
     "menu" : "locos",
-    "title" : "Chistes de locos",
+    "title" : "Chistes de Locos",
     "volume" : 1870,
     "level" : 2
   },
   {
     "_id" : "mama-mama",
     "menu" : "mamá, mamá…",
-    "title" : "Chistes de \"mamá, mamá…\"",
+    "title" : "Chistes de \"Mamá, mamá…\"",
     "volume" : 2560,
     "level" : 2
   },
   {
     "_id" : "matrimonios",
     "menu" : "matrimonios",
-    "title" : "Chistes de matrimonios",
+    "title" : "Chistes de Matrimonios",
     "volume" : 2590,
     "level" : 2
   },
   {
     "_id" : "musicos",
     "menu" : "músicos",
-    "title" : "Chistes de músicos",
+    "title" : "Chistes de Músicos",
     "volume" : 2080,
     "level" : 2
   },
   {
     "_id" : "parejas",
     "menu" : "parejas",
-    "title" : "Chistes de parejas",
+    "title" : "Chistes de Parejas",
     "volume" : 2390,
     "level" : 2
   },
   {
     "_id" : "psicologos",
     "menu" : "psicólogos",
-    "title" : "Chistes de psicólogos",
+    "title" : "Chistes de Psicólogos",
     "volume" : 2330,
     "level" : 2
   },
   {
     "_id" : "telefono",
     "menu" : "teléfono",
-    "title" : "Chistes de teléfono",
+    "title" : "Chistes de Teléfono",
     "volume" : 1390,
     "level" : 2
   },
   {
     "_id" : "vascos",
     "menu" : "vascos",
-    "title" : "Chistes de vascos",
+    "title" : "Chistes de Vascos",
     "volume" : 890,
     "level" : 2
   },
   {
     "_id" : "viejitos",
     "menu" : "viejitos",
-    "title" : "Chistes de viejitos",
+    "title" : "Chistes de Viejitos",
     "volume" : 1520,
     "level" : 2
   },
   {
     "_id" : "tan-tan",
     "menu" : "tan, tan…",
-    "title" : "Chistes de \"tan tan…\"",
+    "title" : "Chistes de \"Tan tan…\"",
     "volume" : 130,
     "level" : 3
   },
   {
     "_id" : "andaluces",
     "menu" : "andaluces",
-    "title" : "Chistes de andaluces",
+    "title" : "Chistes de Andaluces",
     "volume" : 700,
     "level" : 3
   },
   {
     "_id" : "batman",
     "menu" : "batman",
-    "title" : "Chistes de batman",
+    "title" : "Chistes de Batman",
     "volume" : 720,
     "level" : 3
   },
   {
     "_id" : "bizcos",
     "menu" : "bizcos",
-    "title" : "Chistes de bizcos",
+    "title" : "Chistes de Bizcos",
     "volume" : 300,
     "level" : 3
   },
   {
     "_id" : "burocratas",
     "menu" : "burócratas",
-    "title" : "Chistes de burócratas",
+    "title" : "Chistes de Burócratas",
     "volume" : 70,
     "level" : 3
   },
   {
     "_id" : "cafe",
     "menu" : "café",
-    "title" : "Chistes de café",
+    "title" : "Chistes de Café",
     "volume" : 240,
     "level" : 3
   },
   {
     "_id" : "cerveza",
     "menu" : "cerveza",
-    "title" : "Chistes de cerveza",
+    "title" : "Chistes de Cerveza",
     "volume" : 610,
     "level" : 3
   },
   {
     "_id" : "ciegos",
     "menu" : "ciegos",
-    "title" : "Chistes de ciegos",
+    "title" : "Chistes de Ciegos",
     "volume" : 420,
     "level" : 3
   },
   {
     "_id" : "ciencia",
     "menu" : "ciencia",
-    "title" : "Chistes de ciencia",
+    "title" : "Chistes de Ciencia",
     "volume" : 370,
     "level" : 3
   },
   {
     "_id" : "comparaciones",
     "menu" : "comparaciones",
-    "title" : "Chistes de comparaciones",
+    "title" : "Chistes de Comparaciones",
     "volume" : 140,
     "level" : 3
   },
   {
     "_id" : "escatologicos",
     "menu" : "escatológicos",
-    "title" : "chistes escatológicos",
+    "title" : "Chistes Escatológicos",
     "volume" : 100,
     "level" : 3
   },
   {
     "_id" : "famosos",
     "menu" : "famosos",
-    "title" : "Chistes de famosos",
+    "title" : "Chistes de Famosos",
     "volume" : 420,
     "level" : 3
   },
   {
     "_id" : "groserias",
     "menu" : "groserías",
-    "title" : "Chistes de groserías",
+    "title" : "Chistes de Groserías",
     "volume" : 240,
     "level" : 3
   },
   {
     "_id" : "historia",
     "menu" : "historia",
-    "title" : "Chistes de historia",
+    "title" : "Chistes de Historia",
     "volume" : 120,
     "level" : 3
   },
   {
     "_id" : "idiomas",
     "menu" : "idiomas",
-    "title" : "Chistes de idioma",
+    "title" : "Chistes de Idioma",
     "volume" : 320,
     "level" : 3
   },
   {
     "_id" : "jefes-empleados",
     "menu" : "jefes y empleados",
-    "title" : "Chistes de jefes y empleados",
+    "title" : "Chistes de Jefes y Empleados",
     "volume" : 270,
     "level" : 3
   },
   {
     "_id" : "monjas",
     "menu" : "monjas",
-    "title" : "Chistes de monjas",
+    "title" : "Chistes de Monjas",
     "volume" : 800,
     "level" : 3
   },
   {
     "_id" : "padres-hijos",
     "menu" : "padres e hijos",
-    "title" : "Chistes de padres e hijos",
+    "title" : "Chistes de Padres e Hijos",
     "volume" : 480,
     "level" : 3
   },
   {
     "_id" : "playa",
     "menu" : "playa",
-    "title" : "Chistes de playa",
+    "title" : "Chistes de Playa",
     "volume" : 360,
     "level" : 3
   },
   {
     "_id" : "policias",
     "menu" : "policías",
-    "title" : "Chistes de policías",
+    "title" : "Chistes de Policías",
     "volume" : 700,
     "level" : 3
   },
   {
     "_id" : "religiosos",
     "menu" : "religiosos",
-    "title" : "Chistes de religiosos",
+    "title" : "Chistes de Religiosos",
     "volume" : 730,
     "level" : 3
   },
   {
     "_id" : "se-abre-el-telon",
     "menu" : "se abre el telón",
-    "title" : "Chistes de \"se abre el telón…\"",
+    "title" : "Chistes de \"Se abre el telón…\"",
     "volume" : 100,
     "level" : 3
   },
   {
     "_id" : "soldados",
     "menu" : "soldados",
-    "title" : "Chistes de soldados",
+    "title" : "Chistes de Soldados",
     "volume" : 850,
     "level" : 3
   },
   {
     "_id" : "sordos",
     "menu" : "sordos",
-    "title" : "Chistes de sordos",
+    "title" : "Chistes de Sordos",
     "volume" : 400,
     "level" : 3
   },
   {
     "_id" : "zombies",
     "menu" : "zombies",
-    "title" : "Chistes de zombies",
+    "title" : "Chistes de Zombies",
     "volume" : 350,
     "level" : 3
   }

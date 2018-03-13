@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if paginacion.anterior %}
+  <link rel="prev" href="{{paginacion.anterior}}">
+  {% endif %}
+  {% if paginacion.siguiente %}
+  <link rel="next" href="{{paginacion.siguiente}}">
+  {% endif %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -26,6 +32,14 @@
         <header class="card">{% block header %}{% endblock %}</header>
         {% block content %}
         {{ macros.lista(items, category) }}
+        <nav class="pags">
+        {% if paginacion.anterior %}
+          <a class="btn pag" href="{{paginacion.anterior}}">Anteriores</a>
+        {% endif %}
+        {% if paginacion.siguiente %}
+          <a class="btn pag" href="{{paginacion.siguiente}}">Siguientes</a>
+        {% endif %}
+        </nav>
         {% endblock %}
       </div>
       <div class="rightside">
@@ -42,6 +56,8 @@
   </div>
   {{ macros.analytics() }}
   {{ macros.cookies() }}
-  {% include "script.html" %}
+  <script type="text/javascript">
+    {% include "main.js" %}
+  </script>
 </body>
 </html>

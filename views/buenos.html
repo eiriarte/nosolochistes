@@ -8,8 +8,10 @@
 
 {% block header %}
   <h1>Chistes buenos</h1>
+  {% if not paginacion.anterior %}
   <p>Chistes buenos de todas las categorías, cortos y largos, verdes, blancos y negros…</p>
   <p>Prepárate a llorar de risa… con los <strong>chistes más votados</strong> de nuestra selección.</p>
+  {% endif %}
 {% endblock %}
 
 {% block tabs %}

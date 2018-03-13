@@ -1,3 +1,4 @@
+const slashes = require("connect-slashes");
 const jsonParser = require('body-parser').json();
 const items = require('../controllers/items');
 const admin = require('../controllers/admin');
@@ -12,6 +13,8 @@ module.exports = (app) => {
   /*************************************************************************
    *  R E D I R E C C I O N E S
    */
+  app.use(slashes(false));
+
   app.get('*', (req, res, next) => {
     let site;
     if (!req.secure && config.ssl) {
@@ -36,9 +39,14 @@ module.exports = (app) => {
    *  P Á G I N A S
    */
   app.get('/', items.getPortada);
+  app.get('/pag/:page', items.getPortada);
+  // TODO: */pag/1 => 301: sin /pag/1
   app.get('/chistes-buenos', items.getBuenos);
+  app.get('/chistes-buenos/pag/:page', items.getBuenos);
   app.get('/chistes-cortos', items.getCortos);
+  app.get('/chistes-cortos/pag/:page', items.getCortos);
   app.get('/chistes/:categoria', items.getCategory);
+  app.get('/chistes/:categoria/pag/:page', items.getCategory);
   app.get('/chiste/:item', items.getItem);
   app.get('/tipos-de-chistes', (req, res) => {
     res.render('categorias.html', { categories: categories });

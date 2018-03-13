@@ -4,6 +4,8 @@ const _ = require('lodash');
 const categories = require('../models/categories.json');
 const isGone = require('../config/gone');
 
+const maxItems = 16; // Máximo de chistes por página
+
 exports.getItem = (req, res, next) => {
   const Chiste = mongoose.model('Chiste');
   Chiste.findOne({ _id: req.params.item }).lean().exec((err, chiste) => {
@@ -17,7 +19,8 @@ exports.getItem = (req, res, next) => {
 };
 
 exports.getCategory = (req, res, next) => {
-  const skip = Math.abs(+req.query.skip || 0);
+  const [page, skip] = getSkip(req);
+  if (req.params.page && !skip) return next('route');
   const query = getQuery({ categoria: req.params.categoria }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
@@ -25,71 +28,66 @@ exports.getCategory = (req, res, next) => {
       const statusCode = isGone(req.originalUrl) ? 410 : 404;
       return res.status(statusCode).render('404.html', { categories: categories });
     }
+    paginacion = getPaginacion(page, items, req.params.categoria);
     addInfo(items);
-    if (skip) {
-      res.json(items);
-    } else {
-      res.render('categoria.html', {
-        id: req.params.categoria,
-        category: _.find(categories, { _id: req.params.categoria }),
-        categories: categories,
-        items: items,
-      });
-    }
+    res.render('categoria.html', {
+      id: req.params.categoria,
+      category: _.find(categories, { _id: req.params.categoria }),
+      categories: categories,
+      items: items,
+      paginacion: paginacion
+    });
   });
 };
 
 exports.getPortada = (req, res, next) => {
-  const skip = Math.abs(+req.query.skip || 0);
+  const [page, skip] = getSkip(req);
+  if (req.params.page && !skip) return next('route');
   const query = getQuery({ portada: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
+    paginacion = getPaginacion(page, items, '');
     addInfo(items);
-    if (skip) {
-      res.json(items);
-    } else {
-      res.render('portada.html', {
-        id: 'portada',
-        categories: categories,
-        items: items,
-      });
-    }
+    res.render('portada.html', {
+      id: 'portada',
+      categories: categories,
+      items: items,
+      paginacion: paginacion
+    });
   });
 };
 
 exports.getBuenos = (req, res, next) => {
-  const skip = Math.abs(+req.query.skip || 0);
+  const [page, skip] = getSkip(req);
+  if (req.params.page && !skip) return next('route');
   const query = getQuery({ valoracion: { $gt: 1 }}, skip, '-valoracion -fecha');
   query.exec((err, items) => {
     if (err) return next(err);
+    paginacion = getPaginacion(page, items, 'chistes-buenos');
     addInfo(items);
-    if (skip) {
-      res.json(items);
-    } else {
-      res.render('buenos.html', {
-        id: 'Chistes buenos',
-        categories: categories,
-        items: items,
-      });
-    }
+    res.render('buenos.html', {
+      id: 'Chistes buenos',
+      categories: categories,
+      items: items,
+      paginacion: paginacion
+    });
   });
 };
 
 exports.getCortos = (req, res, next) => {
-  const skip = Math.abs(+req.query.skip || 0);
+  const [page, skip] = getSkip(req);
+  if (req.params.page && !skip) return next('route');
   const query = getQuery({ corto: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
+    paginacion = getPaginacion(page, items, 'chistes-cortos');
     addInfo(items);
-    if (skip) {
-      res.json(items);
-    } else {
-      res.render('cortos.html', {
-        id: 'Chistes cortos',
-        categories: categories,
-        items: items,
-      });
-    }
+    res.render('cortos.html', {
+      id: 'Chistes cortos',
+      categories: categories,
+      items: items,
+      paginacion: paginacion
+    });
   });
 };
 
@@ -122,7 +120,7 @@ function getQuery(conditions, skip, sort) {
   const query = Chiste.find(conditions).select(select).lean();
   if (skip) query.skip(skip);
   if (sort) query.sort(sort);
-  return query.limit(20);
+  return query.limit(maxItems + 1);
 }
 
 function addInfo(items) {
@@ -135,4 +133,33 @@ function addInfo(items) {
     item.datetime = item.fecha && item.fecha.toISOString();
     item.fecha = date.format('D MMM YYYY');
   });
+}
+
+function getSkip(req) {
+  const page = Math.floor(+req.params.page || 1);
+  const skip = (page < 2 || page > 9999 ? 0 : page - 1) * maxItems;
+  return [page, skip];
+}
+
+function getPaginacion(page, items, base) {
+  const paginacion = {};
+
+  if (page > 1) {
+    if (page === 2) {
+      paginacion.anterior = '..';
+    } else {
+      paginacion.anterior = '' + (page - 1);
+    }
+  }
+
+  if (items.length > maxItems) {
+    items.pop();
+    if (page === 1) {
+      paginacion.siguiente = base + '/pag/2';
+    } else {
+      paginacion.siguiente = '' + (page + 1);
+    }
+  }
+
+  return paginacion;
 }

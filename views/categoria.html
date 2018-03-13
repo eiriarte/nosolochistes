@@ -14,5 +14,7 @@
 
 {% block header %}
   <h1>{{ category.title }}</h1>
+  {% if not paginacion.anterior %}
   <p>{{ description }}</p>
+  {% endif %}
 {% endblock %}
