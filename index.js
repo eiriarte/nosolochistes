@@ -61,8 +61,9 @@ db.once('open', () => {
   app.use(compression());
   app.use(helmet({
     expectCt: {
-      maxAge: 0,
-      reportUri: 'https://74556c1a5318a467eb73a271fa9fdb42.report-uri.io/r/default/ct/reportOnly'
+      enforce: true,
+      maxAge: 30,
+      reportUri: 'https://fch0.report-uri.com/r/d/ct/enforce'
     }
   }));
   app.use(express.static(config.root + config.statics));
