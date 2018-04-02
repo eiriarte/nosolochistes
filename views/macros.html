@@ -11,7 +11,7 @@
       </a>
     </div>
     <div class="right">
-      <button type="button" class="burger btn" id="btn-menu" aria-controls="nav-menu"><i class="fa fa-bars fa-2x" title="Menú"></i></button>
+      <button type="button" class="burger btn" id="btn-menu" aria-controls="nav-menu"><i class="fas fa-bars fa-2x" title="Menú"></i></button>
     </div>
   </header>
 {% endmacro %}
@@ -30,7 +30,7 @@
       </ul>
     </nav>
     <nav role="navigation">
-      <h2>Categorías</h2>
+      <h2>Chistes de…</h2>
       <ul>
         {% for cat in categories %}
         {% if cat.level === 1 %}
@@ -80,11 +80,11 @@
       <div class="text">{{ item.texto | striptags(true) | escape | nl2br }}</div>
       <footer>
         {% if not category %}
-        <small class="category"><i class="fa fa-folder-open" title="Categoría"></i><a href="/chistes/{{ item.categoria._id }}">{{ item.categoria.menu }}</a></small>
+        <small class="category"><i class="fas fa-folder-open" title="Categoría"></i> <a href="/chistes/{{ item.categoria._id }}">{{ item.categoria.menu }}</a></small>
         {% endif %}
         <span class="actions">
-          <button type="button" class="btn vote up" id="vup:{{ item._id }}" aria-pressed="false"><i class="fa fa-thumbs-up fa-lg" title="Me gusta"></i><span class="nvotes">{{ item.ups }}</span><span class="sr-only"> votos positivos</span></button>
-          <button type="button" class="btn vote down" id="vdown:{{ item._id }}" aria-pressed="false"><i class="fa fa-thumbs-down fa-lg" title="No me gusta"></i><span class="nvotes">{{ item.downs }}</span><span class="sr-only"> votos negativos</span></button>
+          <button type="button" class="btn vote up" id="vup:{{ item._id }}" aria-pressed="false"><i class="fas fa-thumbs-up" title="Me gusta"></i><span class="nvotes">{{ item.ups }}</span><span class="sr-only"> votos positivos</span></button>
+          <button type="button" class="btn vote down" id="vdown:{{ item._id }}" aria-pressed="false"><i class="fas fa-thumbs-down" title="No me gusta"></i><span class="nvotes">{{ item.downs }}</span><span class="sr-only"> votos negativos</span></button>
         </span>
       </footer>
     </article>
@@ -127,8 +127,21 @@
 {% endmacro %}
 
 {% macro styles() %}
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Peralta" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <script>
+    WebFontConfig = {
+      google: {
+        families: ['Peralta']
+      }
+    };
+
+    (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+    })(document);
+  </script>
   <style media="screen">
     {% include "main.css" %}
   </style>
