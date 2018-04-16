@@ -62,7 +62,7 @@ db.once('open', () => {
   app.use(helmet({
     expectCt: {
       enforce: true,
-      maxAge: 30,
+      maxAge: 3600,
       reportUri: 'https://fch0.report-uri.com/r/d/ct/enforce'
     }
   }));
