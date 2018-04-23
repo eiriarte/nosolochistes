@@ -100,26 +100,46 @@
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     </aside>
-    {% elif (loop.last and loop.length <=8) or (loop.index == 8 and not loop.last) %}
+    {% elif (loop.last and loop.length <=5) or (loop.index == 5 and not loop.last) %}
     <aside class="mb-only see-also card">
-      <h2 class="title">Más categorías</h2>
+      <h2 class="title">Otras categorías…</h2>
       <ul>
         {% if category -%}
         <li><a href="/chistes-cortos">Chistes Cortos</a></li>
-        <li><a href="/">Chistes Destacados</a></li>
-        {% endif -%}
-        {%- if category._id != 'pepito' -%}
-        <li><a href="/chistes/pepito">Chistes de Pepito</a></li>
-        {% endif -%}
-        {%- if category._id != 'borrachos' -%}
-        <li><a href="/chistes/borrachos">Chistes de Borrachos</a></li>
-        {% endif -%}
-        {%- if category._id != 'verdes' -%}
-        <li><a href="/chistes/verdes">Chistes Verdes</a></li>
+        <li><a href="/chistes-buenos">Chistes Buenos</a></li>
         {% endif -%}
         {%- if category._id != 'humor-negro' -%}
         <li><a href="/chistes/humor-negro">Chistes de Humor Negro</a></li>
         {% endif -%}
+        {%- if category._id != 'verdes' -%}
+        <li><a href="/chistes/verdes">Chistes Verdes</a></li>
+        {% endif -%}
+        {%- if category._id != 'feministas' -%}
+        <li><a href="/chistes/feministas">Chistes Feministas</a></li>
+        {% endif -%}
+        {%- if category._id != 'borrachos' -%}
+        <li><a href="/chistes/borrachos">Chistes de Borrachos</a></li>
+        {% endif -%}
+        <li><a href="/tipos-de-chistes" class="more">Más categorías…</a></li>
+      </ul>
+    </aside>
+    {% elif (loop.last and loop.length <=10 and loop.length > 5) or (loop.index == 10 and not loop.last) %}
+    <aside class="mb-only see-also card">
+      <h2 class="title">Otras categorías…</h2>
+      <ul>
+        {%- if category._id != 'pepito' -%}
+        <li><a href="/chistes/pepito">Chistes de Pepito</a></li>
+        {% endif -%}
+        {%- if category._id != 'chinos' -%}
+        <li><a href="/chistes/chinos">Chistes de Chinos</a></li>
+        {% endif -%}
+        {%- if category._id != 'preguntas-respuestas' -%}
+        <li><a style="font-size: 0.9em" href="/chistes/preguntas-respuestas">Chistes de Pregunta y Respuesta</a></li>
+        {% endif -%}
+        {%- if category._id != 'animales' -%}
+        <li><a href="/chistes/animales">Chistes de Animales</a></li>
+        {% endif -%}
+        <li><a href="/tipos-de-chistes" class="more">Más categorías…</a></li>
       </ul>
     </aside>
     {% endif %}

@@ -301,10 +301,14 @@ main {
     padding: 8px;
     text-align: center;
     border: 1px solid darken($color-boton-fondo, 65%);
-    border-radius: 16px;
+    border-radius: 12px;
     margin: 8px;
     font-weight: bold;
     background-color: $color-boton-fondo;
+  }
+  .more {
+    font-size: 0.85em;
+    padding: 5px;
   }
 }
 
