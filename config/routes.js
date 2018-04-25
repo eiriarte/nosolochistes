@@ -1,6 +1,7 @@
 const slashes = require("connect-slashes");
 const jsonParser = require('body-parser').json();
 const items = require('../controllers/items');
+const blog = require('../controllers/blog');
 const admin = require('../controllers/admin');
 const sitemap = require('../controllers/sitemap');
 const redirs = require('../models/redirect.json');
@@ -54,6 +55,9 @@ module.exports = (app) => {
   app.get('/aviso', (req, res) => {
     res.render('avisos.html');
   });
+  app.get('/blog', blog.index);
+  app.get('/:categoria', blog.category);
+  app.get('/:categoria/:entrada', blog.post);
 
   app.post('/chiste/:item/action', jsonParser, items.itemAction);
 
@@ -62,6 +66,7 @@ module.exports = (app) => {
    */
   app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new', admin.newItem);
   app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push', jsonParser, admin.pushItem);
+  app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/reset', blog.reset);
 
   /*************************************************************************
    *  S I T E M A P

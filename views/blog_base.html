@@ -1,0 +1,35 @@
+<!DOCTYPE html>{% import "macros.html" as macros %}
+<html lang="es">
+<head>
+  {% block head %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style media="screen">
+    {% include "blog.css" %}
+  </style>
+  {% if post.styles -%}
+  <style media="screen">
+    {% include post.styles %}
+  </style>
+  {%- endif %}
+  {% endblock %}
+</head>
+<body>
+  {{ macros.blogheader(post) }}
+  <main role="main">
+    {% block main %}{% endblock %}
+  </main>
+  {{ macros.blogfooter() }}
+  {{ macros.analytics() }}
+  {{ macros.cookies() }}
+  {% if post.script -%}
+  <script type="text/javascript">
+    {% include post.script %}
+  </script>
+  {%- endif %}
+  <script type="text/javascript">
+    {% include "blog.js" %}
+  </script>
+</body>
+</html>

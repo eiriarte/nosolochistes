@@ -1,0 +1,16 @@
+{% extends "blog_base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <title>{{ post.title }} | Feti-chistes.es</title>
+  <meta name="description" content="{{ post.description}}">
+  <meta property="og:title" content="{{ post.title }}">
+  <meta property="og:description" content="{{ post.description }}">
+  <meta property="og:type" content="article">
+{% endblock %}
+
+{% block main %}
+  <article class="centered">
+    {{ post.html | safe }}
+  </article>
+{% endblock %}

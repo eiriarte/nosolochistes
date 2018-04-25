@@ -1,0 +1,12 @@
+{% extends "blog_base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <title>{{ post.title }} | Feti-chistes</title>
+{% endblock %}
+
+{% block main %}
+  <article class="centered">
+    {{ post.html | safe }}
+  </article>
+{% endblock %}

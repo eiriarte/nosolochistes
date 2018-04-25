@@ -1,0 +1,190 @@
+.delorean {
+  text-align: center;
+}
+
+.delorean-inner {
+  position: relative;
+  display: inline-block;
+}
+
+.delorean-img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: left top;
+  max-width: 100%;
+  height: 53.5vw;
+  max-height: 387px;
+}
+
+.mmm {
+  width: 16%;
+  left: 9%;
+  background-size: 639%;
+  background-position-y: 87.2%;
+}
+
+.period {
+  &.am {
+    display: none;
+  }
+  &.pm {
+    width: 4.7%;
+    left: 61.8%;
+    background-size: 2106%;
+    background-position-y: 68.1%;
+    background-position-x: 63.93%;
+  }
+}
+
+.dest-leds, .present-leds, .last-leds {
+  position: absolute;
+  background-image: url(https://static.feti-chistes.es/frikismo/delorean-orgullo-friki.jpeg);
+  background-size: 4460%;
+  background-position-y: 313.1%;
+  width: 2.34%;
+  height: 8.33%;
+}
+
+.dest-leds {
+  top: 14%;
+  left: 77.4%;
+  background-position-x: 100%;
+}
+
+.present-leds {
+  top: 47.5%;
+  left: 77%;
+  background-position-x: 97.6%;
+}
+
+.last-leds {
+  top: 80.9%;
+  left: 76.6%;
+  background-position-x: 95.3%;
+}
+
+.leds {
+  opacity: 0;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.present {
+  .mmm, ._d, .d_ , ._yyy, .y_yy, .yy_y, .yyy_, ._h, .h_, ._m, .m_, .period {
+    position: absolute;
+    background-image: url(https://static.feti-chistes.es/frikismo/delorean-orgullo-friki.jpeg);
+    height: 15%;
+    top: 44%;
+  }
+
+  ._d, .d_, ._yyy, .y_yy, .yy_y, .yyy_, ._h, .h_, ._m, .m_ {
+    width: 4.8%;
+    background-size: 2100%;
+    background-position-y: 38.6%;
+  }
+
+  ._d { left: 28.1%; }
+  .d_ { left: 32.8%; }
+
+  ._yyy { left: 41.8%; }
+  .y_yy { left: 46.6%; }
+  .yy_y { left: 51.4%; }
+  .yyy_ { left: 56.9%; }
+
+  ._h { left: 67%; }
+  .h_ { left: 71.8%; }
+
+  ._m { left: 80.3%; }
+  .m_ { left: 85.1%; }
+
+  ._1 { background-position-x: 43.8%; }
+  ._2 { background-position-x: 29.5%; }
+  ._3 { background-position-x: 34.3%; }
+  ._4 { background-position-x: 75.3%; }
+  ._5 { background-position-x: 84.3%; }
+  ._6 { background-position-x: 89.5%; }
+  ._7 { background-position-x: 59.7%; }
+  ._8 { background-position-x: 53.9%; }
+  ._9 { background-position-x: 48.8%; }
+  ._0 { background-position-x: 70.4%; }
+}
+
+.dest {
+  .mmm, ._d, .d_ , ._yyy, .y_yy, .yy_y, .yyy_, ._h, .h_, ._m, .m_ {
+    position: absolute;
+    background-image: url(https://static.feti-chistes.es/frikismo/delorean-orgullo-friki.jpeg);
+    height: 15%;
+    top: 10.4%;
+  }
+
+  ._d, .d_, ._yyy, .y_yy, .yy_y, .yyy_, ._h, .h_, ._m, .m_ {
+    width: 4.8%;
+    background-size: 2100%;
+    background-position-y: 9%;
+  }
+
+  ._d { left: 28.9%; }
+  .d_ { left: 33.6%; }
+
+  ._yyy { left: 42.6%; }
+  .y_yy { left: 47.4%; }
+  .yy_y { left: 52.2%; }
+  .yyy_ { left: 57.7%; }
+
+  ._h { left: 67.8%; }
+  .h_ { left: 72.6%; }
+
+  ._m { left: 81.1%; }
+  .m_ { left: 85.9%; }
+
+  ._1 { background-position-x: 44.6%; }
+  ._2 { background-position-x: 30.3%; background-position-y: 9.5%; }
+  ._3 { background-position-x: 35.8%; background-position-y: 9.5%; }
+  ._4 { background-position-x: 76.1%; }
+  ._5 { background-position-x: 85.1%; }
+  ._6 { background-position-x: 90.3%; }
+  ._7 { background-position-x: 60.5%; }
+  ._8 { background-position-x: 54.7%; }
+  ._9 { background-position-x: 49.6%; }
+  ._0 { background-position-x: 71.2%; }
+}
+
+.aug, .sep, .oct, .nov, .dec {
+  background-position-y: 100%;
+}
+.jan { display: none; }
+.mar, .sep { background-position-x: 18.5%; }
+.apr, .oct { background-position-x: 37%; }
+.may, .nov { background-position-x: 55.5%; }
+.jun, .dec { background-position-x: 74%; }
+.jul { background-position-x: 92.5%; }
