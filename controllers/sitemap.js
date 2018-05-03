@@ -10,7 +10,7 @@ exports.getSitemap = (req, res, next) => {
     if (err) return next(err);
     res.
       type('application/xml').
-      render('sitemap.xml', { urlset: getSitemapItems(items) });
+      render('joke_sitemap.xml', { urlset: getSitemapItems(items) });
   });
 };
 

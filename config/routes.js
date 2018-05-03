@@ -71,7 +71,7 @@ module.exports = (app) => {
   /*************************************************************************
    *  S I T E M A P
    */
-  app.get('/sitemap.xml', sitemap.getSitemap);
+  app.get('/joke_sitemap.xml', sitemap.getSitemap);
 
   /*************************************************************************
    *  E R R O R   4 0 4
