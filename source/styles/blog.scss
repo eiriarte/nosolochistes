@@ -43,8 +43,12 @@ main {
 }
 
 h1 {
-  font-size: 2em;
   margin: 1rem 0;
+  line-height: 1.2;
+  font-size: 1.8em;
+  @media screen and (min-width: $min-sidebar) {
+    font-size: 2em;
+  }
 }
 
 h2 {
@@ -178,6 +182,12 @@ iframe {
 figure {
   max-width: 100%;
   margin: 1em auto;
+  iframe {
+    height: calc((100vw - 16px) / (16 / 9));
+    @media screen and (min-width: $min-sidebar) {
+      height: 386px;
+    }
+  }
 }
 
 figcaption {

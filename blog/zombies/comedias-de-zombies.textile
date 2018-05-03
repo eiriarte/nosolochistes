@@ -1,0 +1,663 @@
+---
+title: Las 9 comedias de zombis que tienes que ver antes de morir
+description: Tu guía definitiva de las comedias de zombis. Las nueve mejores "zomedias" de la historia del cine (estrenadas en cines entre 1985 y 2016, disponibles en español).
+styles: comedias-de-zombies.css
+---
+
+h1. Las 9 comedias de zombis que tienes que ver antes de morir
+
+ <figure style="width: 768px">
+   <img src="https://static.feti-chistes.es/zombis/bubble-zombis.jpg" alt="Fotomontaje de zombis persiguiendo a «Chubby Bubbles Girl»" width="768" height="384">
+ </figure>
+
+Existen literalmente cientos de comedias de zombis (o "zomedias") de todo tipo: taquillazos, cortometrajes, serie B, serie Z, cubanas, japonesas, bollywoodienses, parodias, metaparodias, musicales, porno-gais, de época, biográficas…
+
+Imagina lo que quieras. Ya existe.
+
+Dado el panorama, podrías pensar que el género ya no da más de sí… ¡Error! Un rápido vistazo a la siguiente lista te demostrará que no hay límite para lo que una mente enferma puede llegar a engendrar.
+
+Y lo mejor de todo es que algunas de ellas… ¡son hasta buenas!
+
+Pero, ¿cómo elegir? ¿Cómo separar el trigo de la paja?
+
+Ningún problema. Aquí tienes una selección de *las 9 mejores comedias de zombis de la historia del cine* (sin exagerar).
+
+Por supuesto, comedias aparte, siempre es conveniente haber visto los clásicos de George A. Romero, especialmente _La noche de los muertos vivientes_ y _El amanecer de los muertos vivientes_, ya que algunos de los chistes hacen referencia a ellos.
+
+Para que la cosa no se salga de madre, me he limitado solamente a *largometrajes de imagen real estrenados en pantalla grande y disponibles en español* (o, al menos, con subtítulos en cristiano), y que tengan, por supuesto, un mínimo de interés para los -frik…- aficionados al género.
+
+Esto significa que, sintiéndolo mucho, me dejaré en el tintero títulos como _Tiburón zombie_, _Ninjas vs. Zombies_, _Milfs vs. Zombies_, _Retardead_ y otros demasiado infumables para mencionarlos siquiera.
+
+¿Cómo? ¿Que tu comedia de zombis favorita no está en esta lista? ¡Infamia! ¡Adelante, vuelca tu ira en los comentarios!
+
+notextile.
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>1. <span itemprop="name">Bienvenidos a Zombieland</span> (<span itemprop="datePublished">2009</span>)</h2>
+  <h3>Viaje por los EE. UU. de Zombilandia</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/ENFhVYk8css?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">En unos Estados Unidos post-apocalipsis-zombi, el joven "Columbus" quiere reencontrarse con sus padres, que viven (si es que aún viven) en Ohio. Durante el viaje deberá unir fuerzas con un tipo duro mata-zombis ("Tallahasse") y unas hermanas timadoras ("Wichita" y "Little Rock").</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Si solo ves una película de esta lista, que sea esta. Lo tiene todo: humor negro gamberro, drama, acción, gore, zombis palomiteros, y… un impagable cameo de Bill Murray interpretando a Bill Murray interpretando a un zombi (sí, lo he escrito bien).</p><p>Dado su éxito, hay ya en el horno <a href="https://www.imdb.com/title/tt1560220/">una potencial secuela</a> (crucemos los dedos).</p><p>Ah, un consejo: quédate a ver los créditos hasta el final.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="220" height="345" src="https://static.feti-chistes.es/zombis/cartel-zombieland.jpg" alt="Cartel de la película «Bienvenidos a Zombieland»" itemprop="image" style="min-width: 220px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Zombieland</span><a href="https://www.imdb.com/title/tt1156398/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">EE. UU.</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Ruben Fleischer</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Jesse Eisenberg</span>, <span itemprop="actor">Woody Harrelson</span>, <span itemprop="actor">Emma Stone</span>, <span itemprop="actor">Abigail Breslin</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H24M">1h 24min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Virus</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, rápido</dd>
+      <dt>Gravedad</dt>
+      <dd>Apocalipsis</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>2. <span itemprop="name">Zombies Party (Una noche… de muerte)</span> (<span itemprop="datePublished">2004</span>)</h2>
+  <h3>También: «El Desesperar de los Muertos», «Muertos de Risa»</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/XlAsMAVLAZE?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">Shaun, un humilde dependiente de una tienda de electrodomésticos, decide poner en orden su vida, reconquistar a su ex-novia y mejorar su relación con sus padres, al tiempo que los salva de una horda de muertos vivientes que, por algún motivo, asola la ciudad.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Del director de <em>Scott Pilgrim vs. The World</em>, <em>Shaun of the Dead</em> (título original, parodia de <em>Dawn of the Dead</em>, de George Romero) es un aclamado clásico moderno entre las comedias de zombis, hasta el punto de que otras muchas se anuncian como "el <em>Shaun of the Dead</em> de esto o de aquello".</p><p>Divertida, impactante y original. Te sorprenderá. ¡Cinco cerebros!</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="233" height="345" src="https://static.feti-chistes.es/zombis/cartel-shaun-of-the-dead.jpg" alt="Cartel de la película «Zombies Party (Una noche… de muerte)»" itemprop="image" style="min-width: 233px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Shaun of the Dead</span><a href="https://www.imdb.com/title/tt0365748/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">Reino Unido</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Edgar Wright</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Simon Pegg</span>, <span itemprop="actor">Nick Frost</span>, <span itemprop="actor">Kate Ashfield</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H39M">1h 39min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Desconocido</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, lento</dd>
+      <dt>Gravedad</dt>
+      <dd>Holocausto</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>3. <span itemprop="name">Braindead (Tu madre se ha comido a mi perro)</span> (<span itemprop="datePublished">1992</span>)</h2>
+  <h3>Apoteosis Gore</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/UNQUiBqePuQ?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">La relación de Lionel con su dominante madre nunca ha sido fácil, especialmente ahora que ha empezado una relación con Paquita (la actriz sevillana Diana Peñalver), y especialmente ahora que su madre, tras ser mordida por un mono-rata de Sumatra (sobre el que pesa una horrible maldición), se está convirtiendo en un repugnante y hambriento zombi.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Escrita y dirigida por el gran Peter Jackson, Braindead es indudablemente un clásico de culto, la obra cumbre del cine gore. Es, con mucho, la película más sangrienta de esta lista (y posiblemente de la historia del cine), una auténtica orgía de sangre, vísceras y secreciones purulentas (en una de sus escenas más memorables se usaron cerca de 300 litros de sangre de atrezo). Si el gore es lo tuyo, esta película debe estar en tu colección.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="242" height="345" src="https://static.feti-chistes.es/zombis/cartel-braindead.jpg" alt="Cartel de la película «Braindead (Tu madre se ha comido a mi perro)»" itemprop="image" style="min-width: 242px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Braindead (Dead Alive)</span><a href="https://www.imdb.com/title/tt0103873/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">Nueva Zelanda</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Peter Jackson</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Timothy Balme</span>, <span itemprop="actor">Diana Peñalver</span>, <span itemprop="actor">Elizabeth Moody</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H44M">1h 44min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Maldición</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Abominación</dd>
+      <dt>Gravedad</dt>
+      <dd>Epidemia</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>4. <span itemprop="name">Re-Animator</span> (<span itemprop="datePublished">1985</span>)</h2>
+  <h3>También: «Resurrección satánica», «El resucitador», «Re-animation»</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/wLJ8Z3PDEGU?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">El estudiante de medicina Herbert West se traslada a la Universidad de Miskatonic, tras ser expulsado de su anterior universidad por sus nada ortodoxos experimentos con cadáveres y un misterioso suero reanimador.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p><em>Re-animator</em> es otra obra de culto por la que no pasa el tiempo. Es una macabra comedia negra, inspirada en el relato de terror de H. P. Lovecraft  <em>Herbert West: Reanimador</em>. Las risas y el gore van <em>in crescendo</em> a la par, a medida que se acerca el demencial clímax final. De obligado visionado si eres estudiante de medicina.</p><p>A <em>Re-animator</em> le siguen dos secuelas, ambas dirigidas por Brian Yuzna: <em>La novia de Re-Animator</em> (1990) y <em>Beyond Re-Animator</em> (2003).</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="220" height="345" src="https://static.feti-chistes.es/zombis/cartel-re-animator.jpg" alt="Cartel de la película «Re-Animator»" itemprop="image" style="min-width: 220px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Re-Animator</span><a href="https://www.imdb.com/title/tt0089885/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">EE. UU.</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Stuart Gordon</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Jeffrey Combs</span>, <span itemprop="actor">Bruce Abbott</span>, <span itemprop="actor">Barbara Crampton</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H26M">1h 26min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Experimento</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Muerto viviente</dd>
+      <dt>Gravedad</dt>
+      <dd>Casos aislados</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>5. <span itemprop="name">Zombis nazis</span> (<span itemprop="datePublished">2009</span>)</h2>
+  <h3>Estaban muertos por dentro… ahora también por fuera</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/GiSJa_oTCGk?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">Un grupo de estudiantes va de vacaciones a las montañas, y se aloja en una vieja cabaña en medio de ninguna parte, sin cobertura telefónica (¿qué puede salir mal?). Cuenta la leyenda que en ese mismo lugar, durante la Segunda Guerra Mundial, fue aniquilado un escuadrón de nazis especialmente crueles, encabezados por el infame coronel Herzog.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Más terror que comedia, pero con golpes muy buenos y llena de guiños a los aficionados al género (como la camiseta de <em>Braindead</em> que lleva el friki del grupo). Recomendada para todos los públicos frikis.</p><p>Si te sabe a poco, que sepas que tiene secuela: <em>Zombis Nazis 2</em> (2014), dirigida también por el peculiar Tommy Wirkola (<em>Hansel & Gretel: Witch Hunters</em>, <em>What Happened to Monday?</em>).</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="241" height="345" src="https://static.feti-chistes.es/zombis/cartel-zombis-nazis.jpg" alt="Cartel de la película «Zombis nazis»" itemprop="image" style="min-width: 241px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Død snø (Dead Snow)</span><a href="https://www.imdb.com/title/tt1278340/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">Noruega</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Tommy Wirkola</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Vegar Hoel</span>, <span itemprop="actor">Stig Frode Henriksen</span>, <span itemprop="actor">Charlotte Frogner</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H30M">1h 30min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Sobrenatural</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Muerto viviente</dd>
+      <dt>Gravedad</dt>
+      <dd>Casos aislados</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>6. <span itemprop="name">I Am a Hero</span> (<span itemprop="datePublished">2015</span>)</h2>
+  <h3>También: «Soy Héroe»</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/nhBP8kunTgI?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">Hideo es un dibujante de manga venido a menos, con problemas mentales y una vida miserable. Cuando un extraño virus convierte a medio Tokio en grotescos zombis balbuceantes, Hideo se verá obligado a luchar por su vida, aunque para ello tenga que violar las estrictas leyes japonesas de regulación de armas de fuego.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p><em>I Am a Hero</em> es ante todo es una espectacular e infartante película de zombis, basada en el no menos espectacular manga homónimo de Kengo Hanazawa. Si eres otaku, no te puedes perder esta por nada del mundo. A destacar los originalísimos zombis y los efectos especiales, a la altura de las grandes superproducciones de Hollywood.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="243" height="345" src="https://static.feti-chistes.es/zombis/cartel-i-am-a-hero.jpg" alt="Cartel de la película «I Am a Hero»" itemprop="image" style="min-width: 243px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">I Am a Hero</span><a href="https://www.imdb.com/title/tt3775202/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">Japón</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Shinsuke Sato</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Yo Oizumi</span>, <span itemprop="actor">Masami Nagasawa</span>, <span itemprop="actor">Kasumi Arimura</span>, <span itemprop="actor">Nana Katase</span>, <span itemprop="actor">Yu Yoshizawa</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT2H5M">2h 5min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Virus</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, rápido</dd>
+      <dt>Gravedad</dt>
+      <dd>Holocausto</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>7. <span itemprop="name">Juan de los Muertos</span> (<span itemprop="datePublished">2011</span>)</h2>
+  <h3>Matamos a sus seres queridos™</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/-GigtfZqsvs?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">Una plaga zombi asola las calles de la Habana. Las autoridades difunden el rumor de que se trata de "disidentes" apoyados por el gobierno de los Estados Unidos. Una pandilla de granujas decide aprovechar la oportunidad y fundar un negocio de exterminio de zombis, con el lema "Matamos a sus seres queridos".</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Humor negro y gamberro <em>made in Cuba</em>, al más puro estilo Mortadelo y Filemón, pero con zombis, gore y chistes verdes. Ensalzada por crítica y público, <em>Juan de los Muertos</em> cuenta, entre otros premios, con un Goya a la mejor película hispanoamericana. Para ser una coproducción hispano-cubana, sus efectos especiales son más que dignos. Imprescindible para tu colección de comedias de zombis.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="244" height="345" src="https://static.feti-chistes.es/zombis/cartel-juan-de-los-muertos.jpg" alt="Cartel de la película «Juan de los Muertos»" itemprop="image" style="min-width: 244px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Juan de los Muertos (Juan of the Dead)</span><a href="https://www.imdb.com/title/tt1838571/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">Cuba</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Alejandro Brugués</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Alexis Díaz de Villegas</span>, <span itemprop="actor">Jorge Molina</span>, <span itemprop="actor">Andrea Duro</span>, <span itemprop="actor">Andros Perugorría</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H34M">1h 34min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Virus</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, imperialista</dd>
+      <dt>Gravedad</dt>
+      <dd>Holocausto</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>8. <span itemprop="name">Mi novio es un zombie</span> (<span itemprop="datePublished">2013</span>)</h2>
+  <h3>También: «Memorias de un zombie adolescente»</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/u6Csl45nPD0?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">Durante una refriega de zombis contra humanos, un honesto y reflexivo chico zombi conoce a una chica humana, y siente la imperiosa necesidad de protegerla (en lugar de comérsela). Esta extraña relación será el origen de una revolución que afectará por igual a humanos y a zombis.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Adaptación de la novela homónima, <em>Warm Bodies</em>, de Isaac Marion. Estamos de nuevo ante una comedia romántica hecha con medios (con secundarios de lujo como John Malkovich). Mucho mejor (y mucho más divertida) que todas las de la saga <em>Crepúsculo</em> juntas.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="244" height="345" src="https://static.feti-chistes.es/zombis/cartel-warm-bodies.jpg" alt="Cartel de la película «Mi novio es un zombie»" itemprop="image" style="min-width: 244px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Warm Bodies</span><a href="https://www.imdb.com/title/tt1588173/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">EE. UU.</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Jonathan Levine</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Nicholas Hoult</span>, <span itemprop="actor">Teresa Palmer</span>, <span itemprop="actor">John Malkovich</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H38M">1h 38min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Infección</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, lento</dd>
+      <dt>Gravedad</dt>
+      <dd>Apocalipsis</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+<section class="movie" itemscope itemtype="http://schema.org/Movie">
+  <h2>9. <span itemprop="name">Orgullo + Prejuicio + Zombies</span> (<span itemprop="datePublished">2016</span>)</h2>
+  <h3>Victorianas repartiendo hondonadas de hostias</h3>
+ <figure style="width: 686px" itemprop="hasPart" itemscope itemtype="http://schema.org/Clip">
+   <meta itemprop="description" content="trailer">
+   <iframe width="686" height="386" src="https://www.youtube.com/embed/S9XARopFwdA?iv_load_policy=3&cc_load_policy=1&rel=0&hl=es" frameborder="0" allowfullscreen></iframe>
+ </figure>
+  <p itemprop="description">A principios del siglo XIX, Inglaterra se ve amenazada por una creciente invasión de zombis. La joven Bennet y sus cuatro hermanas, entrenadas en artes marciales y lucha con armas blancas, deben hacerles frente al tiempo que se desenvuelven como pueden ante las tradicionales presiones para contraer matrimonio.</p>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <div itemprop="reviewBody"><p>Basada en la novela homónima de Seth Grahame-Smith (autor también de <em>Abraham Lincoln, Vampire Hunter</em>). Si pensabas que "romance de época" y "apocalipsis zombi" no pegan ni con cola, puede que esta película te sorprenda: la ambientación y las excelentes interpretaciones contribuyen en gran medida a la suspensión de la incredulidad.</p><p>No esperes una comedia hilarante, no esperes retahílas de gags y chistes, es más bien una "comedia de un solo chiste". Eso sí: si puedes soportar las partes románticas, las escenas con zombis no tienen desperdicio.</p></div>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dr. Gafapasta" />
+    </span>
+    <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="4.5" />
+    </span>
+  </div>
+  <aside class="ficha" role="note">
+    <figure class="cartel">
+      <img width="233" height="345" src="https://static.feti-chistes.es/zombis/cartel-pride-prejudice-zombies.jpg" alt="Cartel de la película «Orgullo + Prejuicio + Zombies»" itemprop="image" style="min-width: 233px">
+    </figure>
+    <dl class="datos">
+      <dt>Título original</dt>
+      <dd><span itemprop="alternateName">Pride and Prejudice and Zombies</span><a href="https://www.imdb.com/title/tt1374989/" class="imdb" itemprop="sameAs" title="Ficha en IMDb" target="_blank">IMDb</a></dd>
+      <dt>País</dt>
+      <dd itemprop="countryOfOrigin">EE. UU.</dd>
+      <dt>Dirección</dt>
+      <dd>
+ <span itemprop="director">Burr Steers</span>      </dd>
+      <dt>Reparto</dt>
+      <dd>
+ <span itemprop="actor">Lily James</span>, <span itemprop="actor">Sam Riley</span>, <span itemprop="actor">Bella Heathcote</span>, <span itemprop="actor">Douglas Booth</span>, <span itemprop="actor">Jack Huston</span>      </dd>
+      <dt>Duración</dt>
+      <dd><time itemprop="duration" datetime="PT1H48M">1h 48min</time></dd>
+      <dt>Desencadenante</dt>
+      <dd>Infección</dd>
+      <dt>Tipo de zombi</dt>
+      <dd>Infectado, listo</dd>
+      <dt>Gravedad</dt>
+      <dd>Holocausto</dd>
+      <dt>Valoración</dt>
+      <dd>
+        <div class="nota" title="4.5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 4.5 están iluminados">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="medio" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+        </div>
+      </dd>
+    </dl>
+  </aside>
+</section>
+
+p(letra-chica). Los derechos de autor de los carteles de las películas pertenecen a las correspondientes productoras/distribuidoras.
+
+p(letra-chica). Imagen de los cerebritos cortesía de <notextile>_DJ_</notextile> en Flickr.
+
+###.. NOTAS ######################################################
+
+TAREAS:
+[x] Imagen destacada
+[x] Meta title, description, etc.
+[ ] reset en el servidor
+[ ] sitemap.xml → joke_sitemap.xml, post_sitemap.xml
+[ ] schema.org/Event → Orgullo Friki
+[ ] Fecha y firma en los artículos
+[ ] schema.org: Article -> author
+[ ] Segunda página
+[ ] Tercera página
+[ ] Finish SEO
+
+Otto: Con estos ingredientes… no es para todos los paladares. Te gustará o no, pero no te dejará indiferente.
+Abraham Lincoln vs. Zombies: No es estrictamente hablando una comedia, pero te puedes reír, entre otras cosas, de lo malísima que es.
+Retardead: De los creadores de _Monsturd_ (¿_Monstruño_? ¿_Mojonstruo_?). Aviso, esta va a ofender a más de uno…
+
+----
+
+FICHA (con forma de ficha): imagen a la izquierda (ampliable → icono lupa ,(+)), director, reparto, etc…
+
+----
+
+Conceptos: muerte, estirar la pata, descansar en paz, cerebros, infectados, muertos vivientes, horda, devorar, gore, no-muerto, insano, malsano, serie B, serie Z, muerto por dentro… y por fuera, Necronomicon, morir de risa, miedo, género, dieta estricta de cerebros, palomitas sabor cerebro, agusanado, película tan pútrida como sus antagonistas, caerse a trozos, truño-películas que producen sarpullidos, en mal estado, pasados de fecha, rancio(sinónimos)…
+
+----
+
+UX: incrustar videos de Youtube (trailers…)
+UX: opción de ordenar por año ("primero las más recientes"), valoración, subgénero
+Filtrar por: PAÍS (EEUU, Cuba…) GÉNERO (Romántica, Pro-zombi, Erótico-festiva, Inenarrable) DESENCADENANTE (Maldición, hechicería, experimento, infección, tóxicos, radiación) TIPO DE ZOMBI (Muertos vivientes, Infectados, Animales zombi, Alimentos zombi) GRAVEDAD (amistosos, casos aislados, brote, epidemia, holocausto, apocalipsis)
+[ Restablecer filtros ]
+Total de películas: "XX películas en la lista [ ver todas ]"
+
+Valoración: de 1 a 5 cerebros
+  - Sistema de puntos para "deducir" las valoraciones:
+    [*] ¿Críticas profesionales en FA? → +1
+    [*] Valoración de crít. profesionales en FA → -1 (rojo) +1 (amarillo) +2 (verde)
+    [*] ¿Nota en FA? ¿Aprobado? → FA: -1, 0, 1
+    [*] ¿Pestañas adicionales (trailers, críticas, DVD…)? → +1 por cada
+    [*] Número de premios/nominaciones en FA → +1 cada uno
+    [*] FA ¿Serie B? ¿De culto? → -1 (B, no de culto), +1 (de culto)
+    [*] ¿Tiene secuelas en FA? → +1 (por cada)
+
+
+
+    [*] ¿Director/actor/escritor famoso en FA? → +1 por cada (Lovecraft…)
+    [*] ¿Existe en una Wikipedia? → +1 por cada idioma
+    [*] ¿Existe en subscene o opensubtitles? → +1 (español) +1 (inglés)
+    [*] IMDB ¿No tuvo distribución fuera de sus fronteras? → -1 (no) +1 (por país)
+
+¿El avance no es cómico? → negativo (o eliminar de la lista)
+
+Rango de años en el <title> (1885-2018)
+
+Metadatos para Fragmentos Enriquecidos (schema.org, json-ld, etc.)
+  - Article para todo el artículo (como vix.com)
+  - Lista de Movies para la lista
+
+
+Enlaces a ficha de IMDB (usar CSS para simular el logo de IMDB, nada de SVG)
+
+Mis propios títulos, o traducciones correctas de títulos, o de los lemas (taglines), como H2
+
+CHISTES:
+- si levantara la cabeza… sería un zombie.
+- zom bilingües (enlace a chistes de zombies).
+- muertos de risa
+
+INTENCIÓN:
+- "peliculas de zombies" → selección de películas buenas y recientes.
+- "peliculas de zombies comedia" → las mejores pelis recientes en español y gratis, para ver con amigos y echarse unas risas.
+
+DIFICULTAD:
+- "peliculas de zombies" → CTR bajo (Carrusel de películas de Google).
+- "peliculas de zombies comedia"
+
+Conexiones semánticas:
+  Resultado destacado:
+    - LISTA DE PELÍCULAS (Carrusel de Google): PELÍCULAS > ZOMBI > COMEDIA
+      - Portada + título + año
+  Resultados preferidos por Google:
+    - Informacional: artículos de blogs con lista de recomendaciones
+      - Video-trailers
+      - Fotogramas
+      - Lenguaje informal
+    - Imágenes
+    - Vídeos
+  Knowledge Graph:
+  WikiData:
+    Entidad:
+    Atributos:
+  Keywords/Entidades/atributos:
+    PELÍCULAS > ZOMBI > COMEDIA
+    / art and entertainment / movies and tv / movies (3)
+    / art and entertainment / humor (3)
+    ¿"cine"?
+    ¿"gore"?
+    ¿"genero"?
+    ¿"divertidas"?
+    ¿"comedia romantica"?
+    ¿"comedia inglesa"? (británica)
+    ¿"en espanol"?
+    ¿"humor"?
+    ¿"pelis de zombies"?
+    ¿"completas"?
+    ¿"zomedy"? zomedia (del inglés "zomedy") (zom-com)
+    20XX
+    Shaun of the Dead [movie] [concept] (2)
+    Comedia [concept] (2)
+    Zombi [concept] (2)
+    Humor [concept]
+    Humor Negro [concept]
+    Apocalipsis Zombi [concept]
+    Televisión [concept]
+    Película [concept]
+    Braindead [concept]
+    La Noche de los Muertos Vivientes [movie] [concept]
+    Return of the Living Dead [movie]
+    George A. Romero (2) [person] [concept]
+    Peter Jackson (3) [person]
+    Bruce Campbell [person]
+    Woody Harrelson [person]
+    muertos vivientes (3) (o "Muertos Vivos")
+    living dead (2)
+    instintos asesinos
+    zombies nazis
+    comedia zombi
+    estereotipos zombies
+  Tendencias
+  Otras búsquedas
+    "peliculas de miedo y risa ala vez"
+  schema.org →
+
+Enlaces Externos:
+  -
+  -
+
+Imágenes:
+  -
+  -
+  -
+  -
+
+Material para seguir actualizando:
+https://www.imdb.com/list/ls060005929/ (upd. 13/04/2018)
+https://en.wikipedia.org/wiki/Zombie_comedy (upd. 12/04/2018)
+https://en.wikipedia.org/wiki/Category:Zombie_comedy_films (upd. 13/04/2018)
