@@ -78,14 +78,14 @@ h2(#historia). Historia
 h3. Los orígenes del Día del Orgullo Friki
 
  <figure style="width: 382px">
-   <img src="https://static.feti-chistes.es/frikismo/freaks.gif" alt="Escena de la película «Freaks»" width="382px" height="284px">
+   <img src="https://static.feti-chistes.es/frikismo/freaks.gif" alt="Escena de la película «Freaks»" width="382" height="284">
    <figcaption>Celebración pagana del Orgullo Friki. Por cierto, si no has visto la película <em>Freaks</em> (1932), ya estás tardando.</figcaption>
  </figure>
 
 Un antepasado remoto del Orgullo Friki lo podemos encontrar, como no, en Estados Unidos, allá por los años 60. En pleno apogeo de la contracultura jipi, surgió un movimiento llamado *escena _Freak_*. Estos autodenominados _freaks_ iban de fiesta en fiesta con ropas extravagantes, bailes disparatados y demás comportamientos estrafalarios.
 
  <figure style="width: 344px">
-   <img src="https://static.feti-chistes.es/frikismo/portada-freak-out.jpg" alt="Portada del disco «Freak Out»" width="344px" height="344px">
+   <img src="https://static.feti-chistes.es/frikismo/portada-freak-out.jpg" alt="Portada del disco «Freak Out»" width="344" height="344">
    <figcaption>Ejemplar fosilizado del álbum <em>Freak Out</em> de Frank Zappa, uno de los máximos exponentes de la escena <em>Freak</em>.</figcaption>
  </figure>
 
@@ -131,7 +131,7 @@ h3. ¿Qué es un friki? ¿Lo eres tú?
 Un poco de cultura general, que no hace daño: la palabra _friki_ viene del inglés *_freak_* (concretamente de la forma adjetiva _freaky_), que significa principalmente _anormal_, _bicho raro_, _aberración_. O sea, que en inglés _freak_ es una palabra casi siempre *peyorativa*. _Oops…_
 
  <figure style="width: 500px">
-   <img src="https://static.feti-chistes.es/frikismo/joker-freak.gif" alt="El Joker diciendo «Eres un freak, como yo»" width="500px" height="207px">
+   <img src="https://static.feti-chistes.es/frikismo/joker-freak.gif" alt="El Joker diciendo «Eres un freak, como yo»" width="500" height="207">
    <figcaption><em>"Para ellos solo eres un bicho raro, como yo"</em> —El Joker.</figcaption>
  </figure>
 
@@ -160,7 +160,7 @@ h3. ¿Qué se hace el Día del Orgullo Friki? ¿Debo preocuparme?
 Nada has de temer. Los frikis son por norma general gente pacífica. De hecho, se dice que se suelen encontrar más cómodos en la intimidad de sus hogares.
 
  <figure style="width: 540px">
-   <img src="https://static.feti-chistes.es/frikismo/forges-dia-orgullo-friki.jpg" alt="«Friki» manifestándose orgullosamente en su habitación" width="540px" height="376px">
+   <img src="https://static.feti-chistes.es/frikismo/forges-dia-orgullo-friki.jpg" alt="«Friki» manifestándose orgullosamente en su habitación" width="540" height="376">
    <figcaption>Genial, como siempre, viñeta de nuestro añorado Forges.</figcaption>
  </figure>
 
