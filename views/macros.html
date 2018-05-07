@@ -220,3 +220,20 @@
   <span class="block"><a href="/aviso#cookies">Más información</a>
   <button type="button" class="close">Cerrar</button></span></div>
 {% endmacro %}
+
+{% macro disqus(url, id) -%}
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ url }}';
+      this.page.identifier = '{{ id }}';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://feti-chistes.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Por favor, habilita JavaScript para ver los <a rel="nofollow" href="https://disqus.com/?ref_noscript">comentarios alojados en Disqus.</a></noscript>
+{%- endmacro %}

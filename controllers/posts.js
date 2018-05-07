@@ -21,6 +21,8 @@ exports.getPost = (category, postID) => {
         if (data.length === 3 && data[1].length > 0) {
           try {
             post = yaml.load(data[1]);
+            post.id = postID;
+            post.url = `https://feti-chistes.es/${category}/${postID}`;
             post.html = textile(data[2]);
             posts.set(`${category}/${postID}`, post);
             resolve(post);

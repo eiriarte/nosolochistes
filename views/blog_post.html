@@ -13,4 +13,7 @@
   <article class="centered">
     {{ post.html | safe }}
   </article>
+  <aside class="comments centered">
+    {{ macros.disqus(post.url, post.id) }}
+  </aside>
 {% endblock %}
