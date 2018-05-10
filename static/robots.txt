@@ -1,7 +1,7 @@
 Sitemap: https://feti-chistes.es/sitemap.xml
 
 User-agent: Googlebot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Adsbot-Google
 Disallow: /chiste/
