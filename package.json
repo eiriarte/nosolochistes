@@ -9,6 +9,22 @@
   "author": "Edu",
   "private": true,
   "license": "UNLICENSED",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "indent": [ "error", 2 ],
+      "linebreak-style": [ "error", "unix" ],
+      "quotes": [ "error", "single" ],
+      "semi": [ "error", "always" ],
+      "no-console": 0
+    },
+    "globals": {
+      "ga": false
+    }
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "compression": "^1.6.2",
