@@ -105,7 +105,7 @@
 
 {% macro lista(items, category) %}
   {% for item in items %}
-    <article class="card">
+    <article class="card" id="{{ item._id }}">
       <header>
         <h2 class="title"><a href="/chiste/{{ item._id }}">{{ item.titulo }}</a></h2>
         <small class="author">Enviado por <em class="name">{{ item.autor }}</em>,
@@ -113,14 +113,16 @@
         </small>
       </header>
       <div class="text">{{ item.texto | striptags(true) | escape | nl2br }}</div>
-      <footer>
-        {% if not category %}
-        <small class="category"><i class="fas fa-folder-open" title="Categoría"></i> <a href="/chistes/{{ item.categoria._id }}">{{ item.categoria.menu }}</a></small>
-        {% endif %}
+      <footer class="show-on-fa">
         <span class="actions">
           <button type="button" class="btn vote up" id="vup:{{ item._id }}" aria-pressed="false"><i class="fas fa-thumbs-up" title="Me gusta"></i><span class="nvotes">{{ item.ups }}</span><span class="sr-only"> votos positivos</span></button>
           <button type="button" class="btn vote down" id="vdown:{{ item._id }}" aria-pressed="false"><i class="fas fa-thumbs-down" title="No me gusta"></i><span class="nvotes">{{ item.downs }}</span><span class="sr-only"> votos negativos</span></button>
+          <button type="button" class="btn expand-share" aria-controls="share:{{ item._id }}" aria-expanded="false" data-card-id="{{ item._id }}"><i class="fas fa-share-alt" title="Compartir"></i></button>
         </span>
+        {% if not category %}
+        <small class="category"><i class="fas fa-folder-open" title="Categoría"></i> <a href="/chistes/{{ item.categoria._id }}">{{ item.categoria.menu }}</a></small>
+        {% endif %}
+        {{ social('item', item._id) }}
       </footer>
     </article>
     {% if loop.first %}
@@ -179,6 +181,26 @@
     </aside>
     {% endif %}
   {% endfor %}
+{% endmacro %}
+
+{% macro social(type, url, id) %}
+  {% if type == 'item' %}
+    <div class="share-item" id="share:{{ url }}" aria-label="Compartir este chiste en redes sociales" data-url="https://feti-chistes.es/chiste/{{ url }}">
+      <button type="button" class="btn-social" title="Facebook"><i class="fab fa-lg fa-facebook-f"></i></button>
+      <button type="button" class="btn-social" title="Twitter"><i class="fab fa-lg fa-twitter"></i></button>
+      <button type="button" class="btn-social" title="WhatsApp"><i class="fab fa-lg fa-whatsapp"></i></button>
+      <button type="button" class="btn-social" title="Google+"><i class="fab fa-lg fa-google-plus-g"></i></button>
+      <button type="button" class="btn-social" title="Copiar enlace"><i class="fas fa-lg fa-link"></i></button>
+    </div>
+  {% else %}
+    <aside id="{{ id }}" class="share show-on-fa" aria-label="Compartir esta página en redes sociales" role="region">
+      <button type="button" class="btn-social" title="Facebook"><i class="fab fa-2x fa-facebook-f"></i></button>
+      <button type="button" class="btn-social" title="Twitter"><i class="fab fa-2x fa-twitter"></i></button>
+      <button type="button" class="btn-social" title="WhatsApp"><i class="fab fa-2x fa-whatsapp"></i></button>
+      <button type="button" class="btn-social" title="Google+"><i class="fab fa-2x fa-google-plus-g"></i></button>
+      <button type="button" class="btn-social" title="Copiar enlace"><i class="fas fa-2x fa-link"></i></button>
+    </aside>
+  {% endif %}
 {% endmacro %}
 
 {% macro styles() %}

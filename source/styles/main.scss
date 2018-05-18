@@ -16,6 +16,7 @@ html, body {
 
 body {
   margin-top: (44/16) * 1rem;
+  margin-bottom: 38px;
   background-color: $color-fondo;
   color: $color-verde-negro;
   font-family: $font-body;
@@ -50,16 +51,23 @@ a {
   border: 0;
 }
 
+.card, .share {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 8px 4px -4px rgba(0,0,0,.2);
+}
+
 .card {
   margin: 16px 0;
   padding: 16px;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 8px 4px -4px rgba(0,0,0,.2);
   overflow: hidden;
   h1, h2 {
     font-family: $font-header;
-    font-weight: normal;
+    font-display: swap;
+    font-weight: bold; // Se restaura el valor con .wf-active
+    font-size-adjust: 0.56; // Se restaura el valor con .wf-active
+    opacity: 0.5; // Se restaura el valor con .wf-active
+    transition: opacity 1s ease-out;
   }
   &:empty {
     display: none;
@@ -81,6 +89,19 @@ a {
   padding: 4px;
   font-family: $font-body;
   color: $color-verde-negro;
+}
+
+.btn-social {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 13px 0;
+  width: 20%;
+  color: $color-verde-negro;
+  cursor: pointer;
+  &:hover {
+    background-color: transparentize($color-verde-negro, 0.85);
+  }
 }
 
 .site-header {
@@ -164,7 +185,7 @@ a {
       text-align: left;
     }
   }
-  &.toggled {
+  &[aria-expanded="true"] {
     display: block;
   }
   .sections :not(:first-child), h2 {
@@ -222,7 +243,7 @@ main {
     background-color: $color-verde-gris;
     h1 {
       font-size: 1.7rem;
-      opacity: 0.85;
+      color: #32442a;
     }
   }
   article {
@@ -241,20 +262,20 @@ main {
       margin-top: 1rem;
     }
     footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-between;
       margin-top: 8px;
-      a, .actions {
-        white-space: nowrap;
-      }
       .category {
+        vertical-align: sub;
         i {
           color: darken($color-gris-logo, 30%);
           margin-right: 8px;
         }
       }
       .actions {
+        white-space: nowrap;
+        float: right;
         .btn {
           padding: 8px;
           background: none;
@@ -272,6 +293,12 @@ main {
       }
     }
   }
+}
+
+html.wf-active .card h1, html.wf-active .card h2 {
+  font-size-adjust: none;
+  font-weight: normal;
+  opacity: 1;
 }
 
 @media screen and (min-width: $min-sidebar) {
@@ -345,6 +372,43 @@ main {
   }
 }
 
+.share {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  font-size: 0;
+  background: white;
+  @media screen and (min-width: $min-sidebar) {
+    left: 224px;
+    width: 640px;
+    border: 1px #12260D80 solid;
+  }
+}
+
+.share-item {
+  display: none; // Se muestra por javascript
+  position: relative;
+  top: 4px;
+  clear: right;
+  font-size: 0;
+  &[aria-expanded="true"] {
+    display: block;
+  }
+}
+
+.show-on-fa {
+  opacity: 0; // Se muestra cuando esté disponible Font Awesome
+  -webkit-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+html.fontawesome-i2svg-active .show-on-fa {
+  opacity: 1;
+}
+
 // /tipos-de-chistes
 .cloud {
   text-align: center;
@@ -382,5 +446,94 @@ main {
   box-shadow: 1px 1px 2px $color-verde-negro;
   &:hover {
     background-color: #2b401f;
+  }
+}
+
+// Emergente "Copiar enlace"
+.popup-bg {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.6s ease-out;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99999;
+  background: black;
+  &.visible {
+    opacity: 0.8;
+    height: 100%;
+  }
+}
+
+.popup {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: opacity 0.6s ease-out;
+  z-index: 100000;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  &.visible {
+    opacity: 1;
+    height: 100%;
+    padding-top: 2rem;
+  }
+  &>h2 {
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  &>p {
+    margin: 0;
+  }
+}
+
+.btn-close-copy {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: none;
+  color: white;
+  &:focus {
+    border-radius: 16px;
+    background: $color-gris-logo;
+  }
+}
+
+.link-input {
+  width: 90%;
+  font-size: 1rem;
+  margin: 1em 0;
+  border-radius: 3px;
+  border: none;
+  padding: 4px;
+  @media screen and (min-width: $min-sidebar) {
+    width: 60%;
+  }
+}
+
+.btn-copy-link {
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  font-size: 1rem;
+}
+
+.msg-copied {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  display: table;
+  margin: 2em auto;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: $color-link;
+  font-size: 0.9em;
+  &.visible {
+    opacity: 1;
   }
 }
