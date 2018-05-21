@@ -8,8 +8,3 @@ permissions:
     mode: 775
     type:
       - file
-hooks:
-  ApplicationStart:
-    - location: scripts/restart_service
-      timeout: 300
-      runas: root
