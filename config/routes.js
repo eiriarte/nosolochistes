@@ -1,4 +1,4 @@
-const slashes = require("connect-slashes");
+const slashes = require('connect-slashes');
 const jsonParser = require('body-parser').json();
 const items = require('../controllers/items');
 const blog = require('../controllers/blog');
@@ -66,6 +66,7 @@ module.exports = (app) => {
    */
   app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new', admin.newItem);
   app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push', jsonParser, admin.pushItem);
+  app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/update', jsonParser, admin.updateItem);
   app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/reset', blog.reset);
 
   /*************************************************************************
@@ -94,4 +95,4 @@ module.exports = (app) => {
     }
     res.status(500).render('500.html');
   });
-}
+};

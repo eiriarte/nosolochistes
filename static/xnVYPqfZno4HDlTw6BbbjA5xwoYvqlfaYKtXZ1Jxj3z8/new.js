@@ -7,11 +7,11 @@
 
     document.getElementById('texto').onkeyup = function() {
       cCount.textContent = this.textLength;
-    }
+    };
   });
 
   function submit() {
-    var url = '/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push'
+    var url = '/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push';
     var form = document.getElementById('formChiste');
     var chiste = getForm();
     if (!chiste.titulo || !chiste._id || !chiste.texto ||
@@ -26,7 +26,7 @@
         }
         console.log('Respuesta del servidor', data);
         form.reset();
-      })
+      });
     }
   }
 
