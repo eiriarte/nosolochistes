@@ -75,6 +75,19 @@ a {
   }
 }
 
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  padding: 4px;
+  font-family: $font-body;
+  color: $color-verde-negro;
+}
+
 // Cabecera
 
 .blog-header {
@@ -225,6 +238,9 @@ figcaption {
   }
 }
 
+// ============ BOTONERA SOCIAL ===============================================
+
+@import "socials";
 
 // ============ AVISO DE "COOKIES" ASÍNCRONO ==================================
 

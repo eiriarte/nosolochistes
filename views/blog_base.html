@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style media="screen">
-    {% include "blog.css" %}
-  </style>
+  {{ macros.styles('blog', peralta=false) }}
   {% if post.styles -%}
   <style media="screen">
     {% include post.styles %}
@@ -19,17 +17,18 @@
   {{ macros.blogheader(post) }}
   <main role="main">
     {% block main %}{% endblock %}
+    {{ macros.social('global') }}
   </main>
   {{ macros.blogfooter() }}
-  {{ macros.analytics() }}
   {{ macros.cookies() }}
-  {% if post.script -%}
+  {{ macros.popup_link() }}
+  {{ macros.analytics() }}
   <script type="text/javascript">
+    {% if post.script -%}
     {% include post.script %}
-  </script>
-  {%- endif %}
-  <script type="text/javascript">
+    {%- endif %}
     {% include "blog.js" %}
+    {% include "socials.js" %}
   </script>
 </body>
 </html>

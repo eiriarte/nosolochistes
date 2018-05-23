@@ -203,8 +203,21 @@
   {% endif %}
 {% endmacro %}
 
-{% macro styles() %}
+{% macro popup_link() %}
+  <div class="popup-bg" tabindex="-1"></div>
+  <div role="dialog" aria-modal="true" class="popup" aria-labelledby="copy-title">
+    <button class="btn btn-close-copy" type="button" aria-label="Cerrar"><i class="fas fa-2x fa-times-circle"></i></button>
+    <h2 id="copy-title">Copiar enlace</h2>
+    <p><i class="fas fa-link"></i> <span id="link-title"></span></p>
+    <input readonly id="link-input" class="link-input" type="text" value="">
+    <button class="btn btn-copy-link" type="button">Copiar</button>
+    <div class="msg-copied" aria-hidden="true"><i class="fas fa-info-circle"></i> &nbsp;Enlace copiado</div>
+  </div>
+{% endmacro %}
+
+{% macro styles(section='main', peralta=true) %}
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  {% if peralta -%}
   <script>
     WebFontConfig = {
       google: {
@@ -219,8 +232,9 @@
       s.parentNode.insertBefore(wf, s);
     })(document);
   </script>
+  {%- endif %}
   <style media="screen">
-    {% include "main.css" %}
+    {% include section + ".css" %}
   </style>
 {% endmacro %}
 

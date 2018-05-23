@@ -69,19 +69,12 @@
       {{ macros.social('global', 'https://feti-chistes.es/', itemId)}}
     </main>
   </div>
-  {{ macros.analytics() }}
   {{ macros.cookies() }}
+  {{ macros.popup_link() }}
+  {{ macros.analytics() }}
   <script type="text/javascript">
     {% include "main.js" %}
+    {% include "socials.js" %}
   </script>
-  <div class="popup-bg" tabindex="-1"></div>
-  <div role="dialog" aria-modal="true" class="popup" aria-labelledby="copy-title">
-    <button class="btn btn-close-copy" type="button" aria-label="Cerrar"><i class="fas fa-2x fa-times-circle"></i></button>
-    <h2 id="copy-title">Copiar enlace</h2>
-    <p><i class="fas fa-link"></i> <span id="link-title"></span></p>
-    <input readonly id="link-input" class="link-input" type="text" value="">
-    <button class="btn btn-copy-link" type="button">Copiar</button>
-    <div class="msg-copied" aria-hidden="true"><i class="fas fa-info-circle"></i> &nbsp;Enlace copiado</div>
-  </div>
 </body>
 </html>

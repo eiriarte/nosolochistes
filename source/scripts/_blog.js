@@ -1,39 +1,18 @@
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
-    var cookieConsent = document.querySelector('.cconsent');
-    var cconsentFlagURL = 'https://d2pcbc801cuv3o.cloudfront.net/cconsent.json';
     var btnMenu = document.getElementById('btn-menu');
     var mobileMenu = document.getElementById('nav-menu');
 
     showTOC();
+    showCookieConsent();
 
     btnMenu.onclick = function() {
       toggleMenu(btnMenu, mobileMenu);
     };
-
-    // Cookie Law
-    if (!localStorage || !localStorage.getItem('fch-cc')) {
-      // Comprobamos si puede acceder a una URL georestringida a la UE
-      ajax(cconsentFlagURL, function(error, data) {
-        if (data && data.location === 'europe') {
-          // Mostrar el aviso de cookies
-          cookieConsent.className += ' visible';
-          document.querySelector('.cconsent .close').onclick = function() {
-            // Ocultar el aviso de cookies
-            cookieConsent.className = 'cconsent';
-            // No mostrar más veces
-            if (localStorage) localStorage.setItem('fch-cc', '1');
-          }
-        } else {
-          // No intentar mostrar más veces
-          if (localStorage) localStorage.setItem('fch-cc', '1');
-        }
-      });
-    }
   });
 
   function showTOC() {
-    var sections, toc = document.querySelector('.toc');
+    var list, sections, toc = document.querySelector('.toc');
     if (toc) {
       list = document.createElement('ol');
       sections = document.querySelectorAll('article>h2');
@@ -64,6 +43,31 @@
       btn.className += ' open';
       btn.setAttribute( 'aria-expanded', 'true' );
       menu.setAttribute( 'aria-expanded', 'true' );
+    }
+  }
+
+  // Muestra el jodido aviso de cookies
+  function showCookieConsent() {
+    var cookieConsent = document.querySelector('.cconsent');
+    var cconsentFlagURL = 'https://d2pcbc801cuv3o.cloudfront.net/cconsent.json';
+
+    if (!localStorage || !localStorage.getItem('duendes-cc')) {
+      // Comprobamos si puede acceder a una URL georestringida a la UE
+      ajax(cconsentFlagURL, function(error, data) {
+        if (data && data.location === 'europe') {
+          // Mostrar el aviso de cookies
+          cookieConsent.className += ' visible';
+          document.querySelector('.cconsent .close').onclick = function() {
+            // Ocultar el aviso de cookies
+            cookieConsent.className = 'cconsent';
+            // No mostrar más veces
+            if (localStorage) localStorage.setItem('duendes-cc', '1');
+          };
+        } else {
+          // No intentar mostrar más veces
+          if (localStorage) localStorage.setItem('duendes-cc', '1');
+        }
+      });
     }
   }
 
