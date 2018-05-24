@@ -67,7 +67,7 @@
     prevFocus.focus();
   }
 
-  // Botón copiar-enlace
+  // Botón copiar-enlace (en el emergente Copiar Enlace)
   function copyLink() {
     cpLinkInput.select();
     if (document.execCommand('copy')) {
@@ -96,11 +96,12 @@
 
   // Clic en un botón de compartir en Facebook, Twitter, Google+ o WhatsApp
   function socialShare(btn) {
-    var tw_text, text,
-      url = btn.parentElement.dataset.url || window.location.href;
+    var tw_text, text, url =
+      (btn.parentElement.dataset.url || window.location.href)
+        .replace(/\/pag\/\d+|\?.*$/g, '');
     var category = url.indexOf('/chiste/') !== -1 ? 'Chiste' : 'Categoría';
     var label = url.split('/').pop();
-    url = url.split('?')[0] + '?' + shareUTM[btn.title];
+    url = url + '?' + shareUTM[btn.title];
     url = shareURL[btn.title].replace('%url%', encodeURIComponent(url));
     if (btn.parentElement.classList.contains('share-item')) {
       // Compartir chiste desde categoría
@@ -139,7 +140,7 @@
       title = document.title;
     }
     cpLinkTitle.textContent = title;
-    cpLinkInput.value = url;
+    cpLinkInput.value = url.replace(/\/pag\/\d+|\?.*$/g, '');
     bgModal.classList.add('visible');
     shareModal.classList.add('visible');
     btnCopyLink.focus();
