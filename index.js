@@ -11,13 +11,13 @@ const mongoose = require('mongoose');
 const nunjucks = require('nunjucks');
 const _ = require('lodash');
 const moment = require('moment');
-const config = require('./config')
+const config = require('./config');
 const isBadRobot = require('./config/robots');
 const routes = require('./config/routes');
 const logger = require('./config/logger');
 const log = logger.log;
 
-mongoose.Promise = global.Promise
+mongoose.Promise = global.Promise;
 mongoose.connect(config.dbURI, { useMongoClient: true });
 const db = mongoose.connection;
 

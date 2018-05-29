@@ -81,10 +81,9 @@
       }, 2000);
       ga('send', {
         hitType: 'event',
-        eventCategory: cpLinkInput.value.indexOf('/chiste/') !== -1
-          ? 'Chiste' : 'Categoría',
+        eventCategory: getCategory(cpLinkInput.value),
         eventAction: 'Copiar Enlace',
-        eventLabel: cpLinkInput.value.split('/').pop()
+        eventLabel: cpLinkInput.value.split('/').pop() || 'feti-chistes.es'
       });
     }
   }
@@ -99,8 +98,8 @@
     var tw_text, text, url =
       (btn.parentElement.dataset.url || window.location.href)
         .replace(/\/pag\/\d+|\?.*$/g, '');
-    var category = url.indexOf('/chiste/') !== -1 ? 'Chiste' : 'Categoría';
-    var label = url.split('/').pop();
+    var category = getCategory(url);
+    var label = url.split('/').pop() || 'feti-chistes.es';
     url = url + '?' + shareUTM[btn.title];
     url = shareURL[btn.title].replace('%url%', encodeURIComponent(url));
     if (btn.parentElement.classList.contains('share-item')) {
@@ -144,6 +143,12 @@
     bgModal.classList.add('visible');
     shareModal.classList.add('visible');
     btnCopyLink.focus();
+  }
+
+  function getCategory(url) {
+    if (url.indexOf('/chiste/') !== -1) return 'Chiste';
+    if (url.indexOf('/chistes') !== -1 || url.length <= 24) return 'Categoría';
+    return 'Blog';
   }
 
 })();
