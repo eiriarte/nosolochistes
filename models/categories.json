@@ -138,7 +138,7 @@
   {
     "_id" : "toc-toc",
     "menu" : "toc-toc",
-    "title" : "Chistes de \"Toc toc… ¿Quién es?\"",
+    "title" : "Chistes de «Toc toc… ¿Quién es?»",
     "volume" : 9940,
     "level" : 1,
     "description" : "¡Toc, toc! ¡Llaman a la puerta! ¿Quién podrá ser? No te quedes con la intriga, pasa y disfruta con estos chistes de «toc, toc»."
@@ -204,7 +204,7 @@
   {
     "_id" : "en-que-se-parece",
     "menu" : "en qué se parece…",
-    "title" : "Chistes de \"En qué se parece…\"",
+    "title" : "Chistes de «En qué se parece…»",
     "volume" : 1000,
     "level" : 2
   },
@@ -246,7 +246,7 @@
   {
     "_id" : "mama-mama",
     "menu" : "mamá, mamá…",
-    "title" : "Chistes de \"Mamá, mamá…\"",
+    "title" : "Chistes de «Mamá, mamá…»",
     "volume" : 2560,
     "level" : 2
   },
@@ -302,7 +302,7 @@
   {
     "_id" : "tan-tan",
     "menu" : "tan, tan…",
-    "title" : "Chistes de \"Tan tan…\"",
+    "title" : "Chistes de «Tan tan…»",
     "volume" : 130,
     "level" : 3
   },
@@ -449,7 +449,7 @@
   {
     "_id" : "se-abre-el-telon",
     "menu" : "se abre el telón",
-    "title" : "Chistes de \"Se abre el telón…\"",
+    "title" : "Chistes de «Se abre el telón…»",
     "volume" : 100,
     "level" : 3
   },
