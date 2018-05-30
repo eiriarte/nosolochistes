@@ -28,7 +28,7 @@ exports.getCategory = (req, res, next) => {
       const statusCode = isGone(req.originalUrl) ? 410 : 404;
       return res.status(statusCode).render('404.html', { categories: categories });
     }
-    paginacion = getPaginacion(page, items, req.params.categoria);
+    var paginacion = getPaginacion(page, items, req.params.categoria);
     addInfo(items);
     res.render('categoria.html', {
       id: req.params.categoria,
@@ -46,7 +46,7 @@ exports.getPortada = (req, res, next) => {
   const query = getQuery({ portada: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    paginacion = getPaginacion(page, items, '');
+    var paginacion = getPaginacion(page, items, '');
     addInfo(items);
     res.render('portada.html', {
       id: 'portada',
@@ -63,7 +63,7 @@ exports.getBuenos = (req, res, next) => {
   const query = getQuery({ valoracion: { $gt: 1 }}, skip, '-valoracion -fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    paginacion = getPaginacion(page, items, 'chistes-buenos');
+    var paginacion = getPaginacion(page, items, 'chistes-buenos');
     addInfo(items);
     res.render('buenos.html', {
       id: 'Chistes buenos',
@@ -80,7 +80,7 @@ exports.getCortos = (req, res, next) => {
   const query = getQuery({ corto: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    paginacion = getPaginacion(page, items, 'chistes-cortos');
+    var paginacion = getPaginacion(page, items, 'chistes-cortos');
     addInfo(items);
     res.render('cortos.html', {
       id: 'Chistes cortos',
@@ -111,7 +111,7 @@ exports.itemAction = (req, res, next) => {
       votes: isDownVote ? item.downs : item.ups,
       otherVotes: isDownVote ? item.ups : item.downs
     });
-  })
+  });
 };
 
 function getQuery(conditions, skip, sort) {
