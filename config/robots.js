@@ -2,6 +2,7 @@ const footprints = [
   '360Spider',
   '80legs',
   'AhrefsBot',
+  'AlphaBot',
   'BlackWidow',
   'BTWebClient',
   'Grafula',
@@ -26,4 +27,4 @@ const badRobot = new RegExp(footprints.join('|'));
 
 module.exports = (ua) => {
   return badRobot.test(ua);
-}
+};
