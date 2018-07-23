@@ -55,6 +55,13 @@ db.once('open', () => {
       }
       return;
     }
+    if (req.originalUrl.includes('php')) {
+      log.info({ msg: 'Conexión bloqueada (PHP). Desconectando…' });
+      if (_.isObject(req.connection) && _.isFunction(req.connection.end)) {
+        setTimeout(() => req.connection.end(), 5000);
+      }
+      return;
+    }
     next();
   });
   app.use(limiter);
