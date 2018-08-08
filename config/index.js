@@ -24,7 +24,7 @@ const config = {
     // ssl: true,
     sslCert: '_ssl/test/cert.pem',
     sslKey: '_ssl/test/key.pem',
-    appURL: 'https://localhost:3443',
+    appURL: 'http://localhost:3000',
     dbURI: 'mongodb://localhost/fch',
     port: 3000,
     sslPort: 3443,

@@ -17,10 +17,22 @@
       "es6": true
     },
     "rules": {
-      "indent": [ "error", 2 ],
-      "linebreak-style": [ "error", "unix" ],
-      "quotes": [ "error", "single" ],
-      "semi": [ "error", "always" ],
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
       "no-console": 0
     },
     "globals": {
@@ -36,6 +48,7 @@
     "helmet": "^3.5.0",
     "js-yaml": "^3.10.0",
     "le_node": "^1.7.0",
+    "lodash": "^4.17.10",
     "moment": "^2.18.1",
     "mongoose": "^4.9.4",
     "morgan": "^1.8.1",

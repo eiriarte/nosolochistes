@@ -3,6 +3,7 @@ const moment = require('moment');
 const _ = require('lodash');
 const categories = require('../models/categories.json');
 const isGone = require('../config/gone');
+const config = require('../config');
 
 const maxItems = 16; // Máximo de chistes por página
 
@@ -28,7 +29,7 @@ exports.getCategory = (req, res, next) => {
       const statusCode = isGone(req.originalUrl) ? 410 : 404;
       return res.status(statusCode).render('404.html', { categories: categories });
     }
-    var paginacion = getPaginacion(page, items, req.params.categoria);
+    var paginacion = getPaginacion(page, items, 'chistes/' + req.params.categoria);
     addInfo(items);
     res.render('categoria.html', {
       id: req.params.categoria,
@@ -143,22 +144,19 @@ function getSkip(req) {
 
 function getPaginacion(page, items, base) {
   const paginacion = {};
+  const baseURL = config.appURL + '/' + base;
 
   if (page > 1) {
     if (page === 2) {
-      paginacion.anterior = '..';
+      paginacion.anterior = baseURL;
     } else {
-      paginacion.anterior = '' + (page - 1);
+      paginacion.anterior = _.trimEnd(baseURL, '/') + '/pag/' + (page - 1);
     }
   }
 
   if (items.length > maxItems) {
     items.pop();
-    if (page === 1) {
-      paginacion.siguiente = base + '/pag/2';
-    } else {
-      paginacion.siguiente = '' + (page + 1);
-    }
+    paginacion.siguiente = _.trimEnd(baseURL, '/') + '/pag/' + (page + 1);
   }
 
   return paginacion;
