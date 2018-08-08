@@ -4,139 +4,136 @@ User-agent: Googlebot
 Disallow:
 
 User-agent: Adsbot-Google
-Disallow: /chiste/
+Disallow:
 
 User-agent: Alexabot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Applebot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Architextspider
-Disallow: /chiste/
+Disallow:
 
 User-agent: Baiduspider
-Disallow: /chiste/
+Disallow:
 
 User-agent: Bender
-Disallow: /chiste/
+Disallow:
 
 User-agent: Bingbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Birubot
-Disallow: /chiste/
+Disallow:
 
 User-agent: BlogPulseLive
-Disallow: /chiste/
+Disallow:
 
 User-agent: ClarityBot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Coccoc
-Disallow: /chiste/
+Disallow:
 
 User-agent: Daumoa
-Disallow: /chiste/
+Disallow:
 
 User-agent: Duckduckbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Fast
-Disallow: /chiste/
+Disallow:
 
 User-agent: Feedfetcher-Google
-Disallow: /chiste/
-
-User-agent: Googlebot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Googlebot-Image
-Disallow: /chiste/
+Disallow:
 
 User-agent: Googlebot-Mobile
-Disallow: /chiste/
+Disallow:
 
 User-agent: Googlebot-News
-Disallow: /chiste/
+Disallow:
 
 User-agent: Googlebot-Video
-Disallow: /chiste/
+Disallow:
 
 User-agent: Gulliver
-Disallow: /chiste/
+Disallow:
 
 User-agent: Ia_Archiver
-Disallow: /chiste/
+Disallow:
 
 User-agent: iisbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Jikespider
-Disallow: /chiste/
+Disallow:
 
 User-agent: Lycos_Spider_(T-Rex)
-Disallow: /chiste/
+Disallow:
 
 User-agent: Mail.Ru_Bot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Mediapartners-Google
-Disallow: /chiste/
+Disallow:
 
 User-agent: Msnbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Msnbot-Media
-Disallow: /chiste/
+Disallow:
 
 User-agent: Msnptc
-Disallow: /chiste/
+Disallow:
 
 User-agent: Naverbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Nutch
-Disallow: /chiste/
+Disallow:
 
 User-agent: Quickobot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Rogerbot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Scooter
-Disallow: /chiste/
+Disallow:
 
 User-agent: Seznambot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Slurp
-Disallow: /chiste/
+Disallow:
 
 User-agent: StackRambler
-Disallow: /chiste/
+Disallow:
 
 User-agent: Surveybot
-Disallow: /chiste/
+Disallow:
 
 User-agent: Teoma
-Disallow: /chiste/
+Disallow:
 
 User-agent: Twitterbot/1.0
-Disallow: /chiste/
+Disallow:
 
 User-agent: Vscooter
-Disallow: /chiste/
+Disallow:
 
 User-agent: Yandex
-Disallow: /chiste/
+Disallow:
 
 User-agent: Yeti
-Disallow: /chiste/
+Disallow:
 
 User-agent: Zyborg
-Disallow: /chiste/
+Disallow:
 
 User-agent: *
 Disallow: /
