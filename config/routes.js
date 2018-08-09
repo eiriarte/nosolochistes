@@ -29,10 +29,11 @@ module.exports = (app) => {
     if (redir) {
       return res.redirect(301, redir);
     }
-    res.redirect(301, '/chistes/' + req.params.tag);
+    res.status(410).render('404.html', { categories: categories });
   });
   app.get('/chistes-recientes', (req, res) => res.redirect(301, '/'));
   app.get('/index.php', (req, res) => res.redirect(301, '/'));
+  app.get('/avisos.php', (req, res) => res.redirect(301, '/aviso'));
   app.get('/mejores-chistes', (req, res) => res.redirect(301, '/chistes-buenos'));
 
 
