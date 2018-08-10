@@ -29,14 +29,15 @@ exports.getCategory = (req, res, next) => {
       const statusCode = isGone(req.originalUrl) ? 410 : 404;
       return res.status(statusCode).render('404.html', { categories: categories });
     }
-    var paginacion = getPaginacion(page, items, 'chistes/' + req.params.categoria);
+    const [paginacion, canonical] = getPaginacion(page, items, 'chistes/' + req.params.categoria);
     addInfo(items);
     res.render('categoria.html', {
       id: req.params.categoria,
       category: _.find(categories, { _id: req.params.categoria }),
       categories: categories,
       items: items,
-      paginacion: paginacion
+      paginacion: paginacion,
+      canonical: canonical
     });
   });
 };
@@ -47,13 +48,14 @@ exports.getPortada = (req, res, next) => {
   const query = getQuery({ portada: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    var paginacion = getPaginacion(page, items, '');
+    const [paginacion, canonical] = getPaginacion(page, items, '');
     addInfo(items);
     res.render('portada.html', {
       id: 'portada',
       categories: categories,
       items: items,
-      paginacion: paginacion
+      paginacion: paginacion,
+      canonical: canonical
     });
   });
 };
@@ -64,13 +66,14 @@ exports.getBuenos = (req, res, next) => {
   const query = getQuery({ valoracion: { $gt: 1 }}, skip, '-valoracion -fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    var paginacion = getPaginacion(page, items, 'chistes-buenos');
+    const [paginacion, canonical] = getPaginacion(page, items, 'chistes-buenos');
     addInfo(items);
     res.render('buenos.html', {
       id: 'Chistes buenos',
       categories: categories,
       items: items,
-      paginacion: paginacion
+      paginacion: paginacion,
+      canonical: canonical
     });
   });
 };
@@ -81,13 +84,14 @@ exports.getCortos = (req, res, next) => {
   const query = getQuery({ corto: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    var paginacion = getPaginacion(page, items, 'chistes-cortos');
+    const [paginacion, canonical] = getPaginacion(page, items, 'chistes-cortos');
     addInfo(items);
     res.render('cortos.html', {
       id: 'Chistes cortos',
       categories: categories,
       items: items,
-      paginacion: paginacion
+      paginacion: paginacion,
+      canonical: canonical
     });
   });
 };
@@ -145,6 +149,7 @@ function getSkip(req) {
 function getPaginacion(page, items, base) {
   const paginacion = {};
   const baseURL = config.appURL + '/' + base;
+  let canonical = baseURL;
 
   if (page > 1) {
     if (page === 2) {
@@ -152,6 +157,7 @@ function getPaginacion(page, items, base) {
     } else {
       paginacion.anterior = _.trimEnd(baseURL, '/') + '/pag/' + (page - 1);
     }
+    canonical = _.trimEnd(canonical, '/') + '/pag/' + page;
   }
 
   if (items.length > maxItems) {
@@ -159,5 +165,5 @@ function getPaginacion(page, items, base) {
     paginacion.siguiente = _.trimEnd(baseURL, '/') + '/pag/' + (page + 1);
   }
 
-  return paginacion;
+  return [paginacion, canonical];
 }
