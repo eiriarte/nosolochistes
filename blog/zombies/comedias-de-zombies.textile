@@ -518,18 +518,31 @@ p(letra-chica). Imagen de los cerebritos cortesía de <notextile>_DJ_</notextile
 TAREAS:
 [x] Imagen destacada
 [x] Meta title, description, etc.
-[ ] reset en el servidor
-[ ] sitemap.xml → joke_sitemap.xml, post_sitemap.xml
-[ ] schema.org/Event → Orgullo Friki
+[x] sitemap.xml → joke_sitemap.xml, post_sitemap.xml
+[x] reset en el servidor
+[x] Comentarios (disqus)
+[x] schema.org/Event → Orgullo Friki
 [ ] Fecha y firma en los artículos
 [ ] schema.org: Article -> author
+[x] COMPARTIR EN REDES SOCIALES: TWITTER, FB, WHATSAPP
+[x] RELLENAR COLA DE CHISTES
+[ ] DATOS ESTRUCTURADOS Y "VOICE FIRST"
+[ ] AMP
+[ ] La pág. 404 no debería tener Adsense!!
 [ ] Segunda página
 [ ] Tercera página
 [ ] Finish SEO
+[x] User Script para fch.es/chiste/* que permita modificar un chiste, enviando un { json } a xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/update
+[ ] Capar http://alphaseobot.com/bot.html
+[ ] https://fontawesome.com/how-to-use/performance-and-security#async-loading-indicators
+[ ] https://fontawesome.com/how-to-use/performance-and-security#symbols-using-svg-sprites
+[ ] https://fontawesome.com/how-to-use/server-side-rendering !!!
 
 Otto: Con estos ingredientes… no es para todos los paladares. Te gustará o no, pero no te dejará indiferente.
 Abraham Lincoln vs. Zombies: No es estrictamente hablando una comedia, pero te puedes reír, entre otras cosas, de lo malísima que es.
 Retardead: De los creadores de _Monsturd_ (¿_Monstruño_? ¿_Mojonstruo_?). Aviso, esta va a ofender a más de uno…
+Lolita Zombie Bear: Tengo predilección por las paridas japonesas, incluyendo aberraciones como esta comedia de…
+Plan 9: Pelis malas con actitud. Actores como el gran Bela Lugosi, o el propio Ed Wood, que…
 
 ----
 

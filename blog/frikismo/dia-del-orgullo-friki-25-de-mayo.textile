@@ -1,11 +1,11 @@
 ---
-title: "Día del Orgullo Friki 2018: ¿Dónde y Cuándo?"
-description: Cada año, el 25 de mayo se celebra el Día del Orgullo Friki 🖖. Este 2018 no será una excepción. Sube a nuestro DeLorean y te mostraremos cuándo y dónde podrás celebrarlo.
+title: "Día del Orgullo Friki 2019: ¿Dónde y Cuándo?"
+description: Cada año, el 25 de mayo se celebra el Día del Orgullo Friki 🖖. Este 2019 no será una excepción. Sube a nuestro DeLorean y te mostraremos cuándo y dónde podrás celebrarlo.
 styles: orgullo-friki.css
 script: orgullo-friki.js
 ---
 
-h1. Todo sobre el Día del Orgullo Friki en 2018
+h1. Todo sobre el Día del Orgullo Friki en 2019
 
 notextile..
 <div class="delorean">
@@ -45,7 +45,7 @@ notextile..
  </div>
 </div>
 
-p. El próximo *25 de mayo de 2018* se celebra el Día del Orgullo Friki en todo el mundo mundial (también llamado Día del Orgullo _Geek_, Otaku, etc…). Si eres friki, y lo reconoces con orgullo, anota la fecha en tu Google Calendar, o mejor aún, prográmala en el circuito temporal de tu DeLorean del Tiempo… ¿Por qué esperar?
+p. El próximo *25 de mayo de 2019* se celebra el Día del Orgullo Friki en todo el mundo mundial (también llamado Día del Orgullo _Geek_, Otaku, etc…). Si eres friki, y lo reconoces con orgullo, anota la fecha en tu Google Calendar, o mejor aún, prográmala en el circuito temporal de tu DeLorean del Tiempo… ¿Por qué esperar?
 
 Pero, ¿de dónde ha salido esta extraña festividad? ¿Qué significa exactamente? ¿Es legal? Sigue leyendo, te lo contamos todo sobre el cómo, el cuándo y el porqué del Día del Orgullo Friki.
 
@@ -168,22 +168,22 @@ Las actividades que se suelen llevar a cabo el Día del Orgullo Friki son las qu
 
 También, a veces, algunas tiendas especializadas ofrecen descuentos especiales, al estilo Viernes Negro, Ciber-lunes, etc.
 
-h3. Actividades en 2018
+h3. Actividades en 2019
 
 h4. Argentina
 
-* *(#comic-con-ar)Buenos Aires*: Aunque no oficialmente conectada al Orgullo Friki, la "Argentina Comic-Con":http://www.argentinacomiccon.com.ar/ es un evento que atrae a los frikis más que el agua a los Gremlins. Del 25 al 27 de mayo en Centro Costa Salguero (Av. Costanera R. Obligado).
+* *(#comic-con-ar)Buenos Aires*: Aunque no oficialmente conectada al Orgullo Friki, la "Argentina Comic-Con":http://www.argentinacomiccon.com.ar/ es un evento que atrae a los frikis más que el agua a los Gremlins. Del 24 al 26 de mayo en Centro Costa Salguero (Av. Costanera R. Obligado).
 
 h4. España
 
-* *(#of-bcn)Barcelona*: El "Orgullo Friki Bcn":https://www.facebook.com/events/2015051315375164/ celebra su novena edición el sábado 26 de mayo. Estáis citados en el Arco del Triunfo a las 11:00h.
-* *(#of-villarreal)Villarreal (Castellón)*: Por sexto año consecutivo, la "asociación OtakuOnda":https://otakuonda.files.wordpress.com/ organiza las "Jornadas del Orgullo Friki":https://www.facebook.com/events/159903067987212.
-* *(#frikimad)Madrid*: El "FrikiMAD":http://frikimad.com celebrará su quinta edición el domingo 20 de mayo. El tema principal será el triple aniversario de Superman.
-* *(#lsymi)La Línea de la Concepción (Cádiz)*: La asociación juvenil Lo Sé Y Me Importa (LSYMI) celebra el Orgullo Friki desde hace años. Este 2018 "no será una excepción":http://www.lalinea.es/portal/index.php/hoy-es-noticia/4895-lsymi-prepara-con-juventud-el-octavo-orgullo-friki-y-presenta-el-cartel-del-evento (ya tienen incluso "el cartel":https://twitter.com/LSYMI/status/963782102843121665 para irlo difundiendo).
+<!-- * *(#of-bcn)Barcelona*: El "Orgullo Friki Bcn":https://www.facebook.com/events/2015051315375164/ celebra su novena edición el sábado 26 de mayo. Estáis citados en el Arco del Triunfo a las 11:00h. -->
+* *(#of-villarreal)Villarreal (Castellón)*: Por sexto año consecutivo, la "asociación OtakuOnda":https://otakuonda.files.wordpress.com/ organiza las "Jornadas del Orgullo Friki":https://www.facebook.com/events/411273382943337/.
+* *(#frikimad)Madrid*: El "FrikiMAD":http://frikimad.com celebrará su sexta edición el domingo 19 de mayo.
+* *(#lsymi)La Línea de la Concepción (Cádiz)*: La asociación juvenil Lo Sé Y Me Importa (LSYMI) celebra el Orgullo Friki desde hace años. Este 2019 "no será una excepción":https://twitter.com/LSYMI/status/1098856477555609601.
 
 h4. México
 
-* *(#otaku-mx)Ciudad de México*: La "10ª Marcha del Orgullo Otaku":https://www.facebook.com/events/166027954085326/ tendrá lugar el domingo 27 de mayo, de 10:00 a 17:00, del Zócalo (Plaza de la Constitución) al Centro de Cultura Digital.
+* *(#otaku-mx)Ciudad de México*: La "11ª Marcha del Orgullo Otaku":https://www.facebook.com/MarchaOtaku/ tendrá lugar el domingo 26 de mayo a las de 11:00 en el Zócalo (Plaza de la Constitución).
 
 Si tu ciudad favorita no está aquí representada, puedes preguntar en tu tienda de cómics de guardia, o echar un vistazo a las etiquetas "#OrgulloFriki":https://twitter.com/hashtag/OrgulloFriki o "#GeekPrideDay":https://twitter.com/hashtag/GeekPrideDay en Twitter.
 
@@ -216,9 +216,9 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
         "position": "1",
         "item": {
           "@type": "Event",
-          "name": "Argentina Comic-Con 2018",
-          "startDate": "2018-05-25",
-          "endDate": "2018-05-27",
+          "name": "Argentina Comic-Con 2019",
+          "startDate": "2019-05-24",
+          "endDate": "2019-05-26",
           "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#comic-con-ar",
           "location": {
             "@type": "Place",
@@ -233,35 +233,35 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "description": "Aunque no oficialmente conectada al Orgullo Friki, la Argentina Comic-Con es un evento que atrae a los frikis más que el agua a los Gremlins."
         }
       },
-      {
-        "@type": "ListItem",
-        "position": "2",
-        "item": {
-          "@type": "Event",
-          "name": "Orgullo Friki Bcn 2018",
-          "startDate": "2018-05-26",
-          "endDate": "2018-05-26",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#of-bcn",
-          "location": {
-            "@type": "Place",
-            "name": "Arco del Triunfo",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Barcelona",
-              "addressCountry": "ES"
-            }
-          },
-          "description": "El Orgullo Friki Bcn celebra su novena edición el sábado 26 de mayo. Estáis citados en el Arco del Triunfo a las 11:00h."
-        }
-      },
+      // {
+      //   "@type": "ListItem",
+      //   "position": "2",
+      //   "item": {
+      //     "@type": "Event",
+      //     "name": "Orgullo Friki Bcn 2018",
+      //     "startDate": "2018-05-26",
+      //     "endDate": "2018-05-26",
+      //     "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#of-bcn",
+      //     "location": {
+      //       "@type": "Place",
+      //       "name": "Arco del Triunfo",
+      //       "address": {
+      //         "@type": "PostalAddress",
+      //         "addressLocality": "Barcelona",
+      //         "addressCountry": "ES"
+      //       }
+      //     },
+      //     "description": "El Orgullo Friki Bcn celebra su novena edición el sábado 26 de mayo. Estáis citados en el Arco del Triunfo a las 11:00h."
+      //   }
+      // },
       {
         "@type": "ListItem",
         "position": "3",
         "item": {
           "@type": "Event",
           "name": "VI Jornadas del Orgullo Friki de Vila-Real",
-          "startDate": "2018-05-26",
-          "endDate": "2018-05-27",
+          "startDate": "2019-06-01",
+          "endDate": "2019-06-02",
           "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#of-villarreal",
           "location": {
             "@type": "Place",
@@ -280,9 +280,9 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
         "position": "4",
         "item": {
           "@type": "Event",
-          "name": "FrikiMAD 2018",
-          "startDate": "2018-05-20",
-          "endDate": "2018-05-20",
+          "name": "FrikiMAD 2019",
+          "startDate": "2019-05-19",
+          "endDate": "2019-05-19",
           "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#frikimad",
           "location": {
             "@type": "Place",
@@ -293,7 +293,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
               "addressCountry": "ES"
             }
           },
-          "description": "El FrikiMAD celebrará su quinta edición el domingo 20 de mayo. El tema principal será el triple aniversario de Superman."
+          "description": "El FrikiMAD celebrará su sexta edición el domingo 19 de mayo."
         }
       },
       {
@@ -301,9 +301,9 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
         "position": "5",
         "item": {
           "@type": "Event",
-          "name": "VIII Día del Orgullo Friki LSYMI",
-          "startDate": "2018-05-19",
-          "endDate": "2018-05-19",
+          "name": "IX Día del Orgullo Friki LSYMI",
+          "startDate": "2019-05-25",
+          "endDate": "2019-05-25",
           "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#lsymi",
           "location": {
             "@type": "Place",
@@ -314,7 +314,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
               "addressCountry": "ES"
             }
           },
-          "description": "La asociación juvenil Lo Sé Y Me Importa (LSYMI) celebra el Orgullo Friki desde hace años. Este 2018 no será una excepción."
+          "description": "La asociación juvenil Lo Sé Y Me Importa (LSYMI) celebra el Orgullo Friki desde hace años. Este 2019 no será una excepción."
         }
       },
       {
@@ -322,9 +322,9 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
         "position": "6",
         "item": {
           "@type": "Event",
-          "name": "10ª Marcha del Orgullo Otaku",
-          "startDate": "2018-05-27",
-          "endDate": "2018-05-27",
+          "name": "11ª Marcha del Orgullo Otaku",
+          "startDate": "2019-05-26",
+          "endDate": "2019-05-26",
           "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#otaku-mx",
           "location": {
             "@type": "Place",
@@ -335,7 +335,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
               "addressCountry": "MX"
             }
           },
-          "description": "La 10ª Marcha del Orgullo Otaku tendrá lugar el domingo 27 de mayo, del Zócalo (Plaza de la Constitución) al Centro de Cultura Digital."
+          "description": "La 11ª Marcha del Orgullo Otaku tendrá lugar el domingo 26 de mayo a las de 11:00 en el Zócalo (Plaza de la Constitución)."
         }
       }
     ]
