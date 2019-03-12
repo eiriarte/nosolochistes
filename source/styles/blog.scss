@@ -105,8 +105,11 @@ a {
 }
 
 .logo {
-  padding-bottom: 4px;
+  text-decoration: none;
+  color: $color-rojo-logo;
+  font-size: 1.6rem;
 }
+
 
 .menu-btn {
   background: none;
