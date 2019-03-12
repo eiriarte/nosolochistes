@@ -10,7 +10,7 @@ h1. Todo sobre el Día del Orgullo Friki en 2019
 notextile..
 <div class="delorean">
  <div class="delorean-inner">
-   <img class="delorean-img" src="https://static.feti-chistes.es/frikismo/delorean-orgullo-friki.jpeg" alt="Circuito temporal del DeLorean ajustado al próximo Día del Orgullo Friki" width="688" height="387">
+   <img class="delorean-img" src="https://static.nosolochistes.com/frikismo/delorean-orgullo-friki.jpeg" alt="Circuito temporal del DeLorean ajustado al próximo Día del Orgullo Friki" width="688" height="387">
    <div class="dest">
      <div class="_d _2"></div>
      <div class="d_ _5"></div>
@@ -78,14 +78,14 @@ h2(#historia). Historia
 h3. Los orígenes del Día del Orgullo Friki
 
  <figure style="width: 382px">
-   <img src="https://static.feti-chistes.es/frikismo/freaks.gif" alt="Escena de la película «Freaks»" width="382" height="284">
+   <img src="https://static.nosolochistes.com/frikismo/freaks.gif" alt="Escena de la película «Freaks»" width="382" height="284">
    <figcaption>Celebración pagana del Orgullo Friki. Por cierto, si no has visto la película <em>Freaks</em> (1932), ya estás tardando.</figcaption>
  </figure>
 
 Un antepasado remoto del Orgullo Friki lo podemos encontrar, como no, en Estados Unidos, allá por los años 60. En pleno apogeo de la contracultura jipi, surgió un movimiento llamado *escena _Freak_*. Estos autodenominados _freaks_ iban de fiesta en fiesta con ropas extravagantes, bailes disparatados y demás comportamientos estrafalarios.
 
  <figure style="width: 344px">
-   <img src="https://static.feti-chistes.es/frikismo/portada-freak-out.jpg" alt="Portada del disco «Freak Out»" width="344" height="344">
+   <img src="https://static.nosolochistes.com/frikismo/portada-freak-out.jpg" alt="Portada del disco «Freak Out»" width="344" height="344">
    <figcaption>Ejemplar fosilizado del álbum <em>Freak Out</em> de Frank Zappa, uno de los máximos exponentes de la escena <em>Freak</em>.</figcaption>
  </figure>
 
@@ -131,7 +131,7 @@ h3. ¿Qué es un friki? ¿Lo eres tú?
 Un poco de cultura general, que no hace daño: la palabra _friki_ viene del inglés *_freak_* (concretamente de la forma adjetiva _freaky_), que significa principalmente _anormal_, _bicho raro_, _aberración_. O sea, que en inglés _freak_ es una palabra casi siempre *peyorativa*. _Oops…_
 
  <figure style="width: 500px">
-   <img src="https://static.feti-chistes.es/frikismo/joker-freak.gif" alt="El Joker diciendo «Eres un freak, como yo»" width="500" height="207">
+   <img src="https://static.nosolochistes.com/frikismo/joker-freak.gif" alt="El Joker diciendo «Eres un freak, como yo»" width="500" height="207">
    <figcaption><em>"Para ellos solo eres un bicho raro, como yo"</em> —El Joker.</figcaption>
  </figure>
 
@@ -160,7 +160,7 @@ h3. ¿Qué se hace el Día del Orgullo Friki? ¿Debo preocuparme?
 Nada has de temer. Los frikis son por norma general gente pacífica. De hecho, se dice que se suelen encontrar más cómodos en la intimidad de sus hogares.
 
  <figure style="width: 540px">
-   <img src="https://static.feti-chistes.es/frikismo/forges-dia-orgullo-friki.jpg" alt="«Friki» manifestándose orgullosamente en su habitación" width="540" height="376">
+   <img src="https://static.nosolochistes.com/frikismo/forges-dia-orgullo-friki.jpg" alt="«Friki» manifestándose orgullosamente en su habitación" width="540" height="376">
    <figcaption>Genial, como siempre, viñeta de nuestro añorado Forges.</figcaption>
  </figure>
 
@@ -219,7 +219,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "name": "Argentina Comic-Con 2019",
           "startDate": "2019-05-24",
           "endDate": "2019-05-26",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#comic-con-ar",
+          "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#comic-con-ar",
           "location": {
             "@type": "Place",
             "name": "Centro Costa Salguero",
@@ -241,7 +241,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
       //     "name": "Orgullo Friki Bcn 2018",
       //     "startDate": "2018-05-26",
       //     "endDate": "2018-05-26",
-      //     "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#of-bcn",
+      //     "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#of-bcn",
       //     "location": {
       //       "@type": "Place",
       //       "name": "Arco del Triunfo",
@@ -262,7 +262,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "name": "VI Jornadas del Orgullo Friki de Vila-Real",
           "startDate": "2019-06-01",
           "endDate": "2019-06-02",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#of-villarreal",
+          "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#of-villarreal",
           "location": {
             "@type": "Place",
             "name": "Centro de Congresos de Vila-Real",
@@ -283,7 +283,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "name": "FrikiMAD 2019",
           "startDate": "2019-05-19",
           "endDate": "2019-05-19",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#frikimad",
+          "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#frikimad",
           "location": {
             "@type": "Place",
             "name": "Artistic Metropol",
@@ -304,7 +304,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "name": "IX Día del Orgullo Friki LSYMI",
           "startDate": "2019-05-25",
           "endDate": "2019-05-25",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#lsymi",
+          "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#lsymi",
           "location": {
             "@type": "Place",
             "name": "Casa de la Juventud",
@@ -325,7 +325,7 @@ Si no puedes esperar al próximo 25 de mayo, siempre puedes ir directamente en e
           "name": "11ª Marcha del Orgullo Otaku",
           "startDate": "2019-05-26",
           "endDate": "2019-05-26",
-          "url": "https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo#otaku-mx",
+          "url": "https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo#otaku-mx",
           "location": {
             "@type": "Place",
             "name": "Plaza de la Constitución (Zócalo)",

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const textile = require('textile-js');
 const yaml = require('js-yaml');
+const config = require('../config');
 
 const posts = new Map();
 const postMatch = /^-{3,}\s([\s\S]*?)-{3,}(\s[\s\S]*|\s?)$/;
@@ -22,7 +23,7 @@ exports.getPost = (category, postID) => {
           try {
             post = yaml.load(data[1]);
             post.id = postID;
-            post.url = `https://feti-chistes.es/${category}/${postID}`;
+            post.url = `${config.appURL}/${category}/${postID}`;
             post.html = textile(data[2]);
             posts.set(`${category}/${postID}`, post);
             resolve(post);

@@ -1,7 +1,5 @@
 const express = require('express');
-const fs = require('fs');
 const http = require('http');
-const https = require('https');
 const path = require('path');
 const favicon = require('serve-favicon');
 const compression = require('compression');
@@ -84,23 +82,16 @@ db.once('open', () => {
   app.use(express.static(config.root + config.statics));
   app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')));
   app.use(logger.logRequest);
+  app.set('trust proxy', true);
 
   routes(app);
 
-  const options = {
-    key: fs.readFileSync(config.sslKey),
-    cert: fs.readFileSync(config.sslCert)
-  };
-
-  let httpServer;
-  const httpsServer = https.createServer(options, app).listen(config.sslPort, () => {
-    httpServer = http.createServer(app).listen(config.port, () => {
-      let msg = `Servidor activo en puertos ${config.port}, ${config.sslPort}.`;
-      msg += ' Entorno: ' + (config.production ? 'PRODUCCIÓN' : 'DESARROLLO');
-      log.info({ msg: msg });
-      process.on('SIGINT', exit);
-      process.on('SIGTERM', exit);
-    });
+  const httpServer = http.createServer(app).listen(config.port, () => {
+    let msg = `Servidor activo en puertos ${config.port}, ${config.sslPort}.`;
+    msg += ' Entorno: ' + (config.production ? 'PRODUCCIÓN' : 'DESARROLLO');
+    log.info({ msg: msg });
+    process.on('SIGINT', exit);
+    process.on('SIGTERM', exit);
   });
 
   function exit() {
@@ -108,20 +99,18 @@ db.once('open', () => {
     log.info({ msg: 'Desconectando la base de datos…' });
     db.close(() => {
       log.info({ msg: 'Cerrando los servidores…' });
-      httpsServer.close(() => {
-        httpServer.close(() => {
-          if (config.production) {
-            log.info({ msg: 'Cerrando conexión con LogEntries…' });
-            log.once('buffer drain', () => {
-              log.closeConnection();
-              log.on('disconnected', () => {
-                process.exit(0);
-              });
+      httpServer.close(() => {
+        if (config.production) {
+          log.info({ msg: 'Cerrando conexión con LogEntries…' });
+          log.once('buffer drain', () => {
+            log.closeConnection();
+            log.on('disconnected', () => {
+              process.exit(0);
             });
-          } else {
-            process.exit(0);
-          }
-        });
+          });
+        } else {
+          process.exit(0);
+        }
       });
     });
   }

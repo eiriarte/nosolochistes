@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://feti-chistes.es/frikismo/dia-del-orgullo-friki-25-de-mayo</loc>
+    <loc>https://nosolochistes.com/frikismo/dia-del-orgullo-friki-25-de-mayo</loc>
     <lastmod>2018-05-03T17:40:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://feti-chistes.es/zombies/comedias-de-zombies</loc>
+    <loc>https://nosolochistes.com/zombies/comedias-de-zombies</loc>
     <lastmod>2018-05-03T17:40:00.000Z</lastmod>
     <image:image>
-      <image:loc>https://static.feti-chistes.es/zombis/bubble-zombis.jpg</image:loc>
+      <image:loc>https://static.nosolochistes.com/zombis/bubble-zombis.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

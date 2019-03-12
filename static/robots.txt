@@ -1,4 +1,4 @@
-Sitemap: https://feti-chistes.es/sitemap.xml
+Sitemap: https://nosolochistes.com/sitemap.xml
 
 User-agent: Googlebot
 Disallow:

@@ -7,7 +7,7 @@ styles: comedias-de-zombies.css
 h1. Las 9 comedias de zombis que tienes que ver antes de morir
 
  <figure style="width: 768px">
-   <img src="https://static.feti-chistes.es/zombis/bubble-zombis.jpg" alt="Fotomontaje de zombis persiguiendo a «Chubby Bubbles Girl»" width="768" height="384">
+   <img src="https://static.nosolochistes.com/zombis/bubble-zombis.jpg" alt="Fotomontaje de zombis persiguiendo a «Chubby Bubbles Girl»" width="768" height="384">
  </figure>
 
 Existen literalmente cientos de comedias de zombis (o "zomedias") de todo tipo: taquillazos, cortometrajes, serie B, serie Z, cubanas, japonesas, bollywoodienses, parodias, metaparodias, musicales, porno-gais, de época, biográficas…
@@ -50,7 +50,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="220" height="345" src="https://static.feti-chistes.es/zombis/cartel-zombieland.jpg" alt="Cartel de la película «Bienvenidos a Zombieland»" itemprop="image" style="min-width: 220px">
+      <img width="220" height="345" src="https://static.nosolochistes.com/zombis/cartel-zombieland.jpg" alt="Cartel de la película «Bienvenidos a Zombieland»" itemprop="image" style="min-width: 220px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -74,11 +74,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -103,7 +103,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="233" height="345" src="https://static.feti-chistes.es/zombis/cartel-shaun-of-the-dead.jpg" alt="Cartel de la película «Zombies Party (Una noche… de muerte)»" itemprop="image" style="min-width: 233px">
+      <img width="233" height="345" src="https://static.nosolochistes.com/zombis/cartel-shaun-of-the-dead.jpg" alt="Cartel de la película «Zombies Party (Una noche… de muerte)»" itemprop="image" style="min-width: 233px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -127,11 +127,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -156,7 +156,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="242" height="345" src="https://static.feti-chistes.es/zombis/cartel-braindead.jpg" alt="Cartel de la película «Braindead (Tu madre se ha comido a mi perro)»" itemprop="image" style="min-width: 242px">
+      <img width="242" height="345" src="https://static.nosolochistes.com/zombis/cartel-braindead.jpg" alt="Cartel de la película «Braindead (Tu madre se ha comido a mi perro)»" itemprop="image" style="min-width: 242px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -180,11 +180,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -209,7 +209,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="220" height="345" src="https://static.feti-chistes.es/zombis/cartel-re-animator.jpg" alt="Cartel de la película «Re-Animator»" itemprop="image" style="min-width: 220px">
+      <img width="220" height="345" src="https://static.nosolochistes.com/zombis/cartel-re-animator.jpg" alt="Cartel de la película «Re-Animator»" itemprop="image" style="min-width: 220px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -233,11 +233,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -262,7 +262,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="241" height="345" src="https://static.feti-chistes.es/zombis/cartel-zombis-nazis.jpg" alt="Cartel de la película «Zombis nazis»" itemprop="image" style="min-width: 241px">
+      <img width="241" height="345" src="https://static.nosolochistes.com/zombis/cartel-zombis-nazis.jpg" alt="Cartel de la película «Zombis nazis»" itemprop="image" style="min-width: 241px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -286,11 +286,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -315,7 +315,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="243" height="345" src="https://static.feti-chistes.es/zombis/cartel-i-am-a-hero.jpg" alt="Cartel de la película «I Am a Hero»" itemprop="image" style="min-width: 243px">
+      <img width="243" height="345" src="https://static.nosolochistes.com/zombis/cartel-i-am-a-hero.jpg" alt="Cartel de la película «I Am a Hero»" itemprop="image" style="min-width: 243px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -339,11 +339,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -368,7 +368,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="244" height="345" src="https://static.feti-chistes.es/zombis/cartel-juan-de-los-muertos.jpg" alt="Cartel de la película «Juan de los Muertos»" itemprop="image" style="min-width: 244px">
+      <img width="244" height="345" src="https://static.nosolochistes.com/zombis/cartel-juan-de-los-muertos.jpg" alt="Cartel de la película «Juan de los Muertos»" itemprop="image" style="min-width: 244px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -392,11 +392,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -421,7 +421,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="244" height="345" src="https://static.feti-chistes.es/zombis/cartel-warm-bodies.jpg" alt="Cartel de la película «Mi novio es un zombie»" itemprop="image" style="min-width: 244px">
+      <img width="244" height="345" src="https://static.nosolochistes.com/zombis/cartel-warm-bodies.jpg" alt="Cartel de la película «Mi novio es un zombie»" itemprop="image" style="min-width: 244px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -445,11 +445,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>
@@ -474,7 +474,7 @@ notextile.
   </div>
   <aside class="ficha" role="note">
     <figure class="cartel">
-      <img width="233" height="345" src="https://static.feti-chistes.es/zombis/cartel-pride-prejudice-zombies.jpg" alt="Cartel de la película «Orgullo + Prejuicio + Zombies»" itemprop="image" style="min-width: 233px">
+      <img width="233" height="345" src="https://static.nosolochistes.com/zombis/cartel-pride-prejudice-zombies.jpg" alt="Cartel de la película «Orgullo + Prejuicio + Zombies»" itemprop="image" style="min-width: 233px">
     </figure>
     <dl class="datos">
       <dt>Título original</dt>
@@ -498,11 +498,11 @@ notextile.
       <dt>Valoración</dt>
       <dd>
         <div class="nota" title="4.5 de 5 cerebros" aria-label="Cinco cerebros, de los cuales 4.5 están iluminados">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="todo" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
-          <img class="medio" width="24" height="24" src="https://static.feti-chistes.es/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="todo" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
+          <img class="medio" width="24" height="24" src="https://static.nosolochistes.com/zombis/cerebro.jpg" alt="">
         </div>
       </dd>
     </dl>

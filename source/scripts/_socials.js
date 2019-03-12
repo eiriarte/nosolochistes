@@ -83,7 +83,7 @@
         hitType: 'event',
         eventCategory: getCategory(cpLinkInput.value),
         eventAction: 'Copiar Enlace',
-        eventLabel: cpLinkInput.value.split('/').pop() || 'feti-chistes.es'
+        eventLabel: cpLinkInput.value.split('/').pop() || 'nosolochistes.com'
       });
     }
   }
@@ -99,7 +99,7 @@
       (btn.parentElement.dataset.url || window.location.href)
         .replace(/\/pag\/\d+|\?.*$/g, '');
     var category = getCategory(url);
-    var label = url.split('/').pop() || 'feti-chistes.es';
+    var label = url.split('/').pop() || 'nosolochistes.com';
     url = url + '?' + shareUTM[btn.title];
     url = shareURL[btn.title].replace('%url%', encodeURIComponent(url));
     if (btn.parentElement.classList.contains('share-item')) {
