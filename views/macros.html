@@ -122,6 +122,8 @@
       </footer>
     </article>
     {% if loop.first %}
+    <!-- AD Slot -->
+    {#-
     <aside class="card">
       <ins class="adsbygoogle"
            style="display:block"
@@ -133,6 +135,7 @@
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     </aside>
+    -#}
     {% elif (loop.last and loop.length <=5) or (loop.index == 5 and not loop.last) %}
     <aside class="mb-only see-also card">
       <h2 class="title">Otras categorías…</h2>

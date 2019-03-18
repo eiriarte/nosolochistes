@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if paginacion.anterior %}
   <link rel="prev" href="{{paginacion.anterior}}">
-  <meta name="robots" content="noindex, follow">
   {% endif %}
   {% if paginacion.siguiente %}
   <link rel="next" href="{{paginacion.siguiente}}">
@@ -15,6 +14,7 @@
   {% if canonical %}
   <link rel="canonical" href="{{canonical}}">
   {% endif %}
+  {#-
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -22,6 +22,7 @@
       enable_page_level_ads: true
     });
   </script>
+  -#}
   {{ macros.styles() }}
   {#-
   <!-- Hotjar Tracking Code for https://nosolochistes.com -->
@@ -60,6 +61,7 @@
         {% endblock %}
       </div>
       <div class="rightside">
+      {#-
         <!-- FCH - Sidebar -->
         <ins class="adsbygoogle"
              style="display:inline-block;width:300px;height:600px"
@@ -68,6 +70,7 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+      -#}
       </div>
       {% set itemId = chiste._id if chiste else '' %}
       {{ macros.social('global', 'https://nosolochistes.com/', itemId)}}
