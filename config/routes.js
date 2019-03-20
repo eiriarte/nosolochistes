@@ -53,9 +53,9 @@ module.exports = (app) => {
   app.get('/tipos-de-chistes', (req, res) => {
     res.render('categorias.html', { categories: categories });
   });
-  app.get('/aviso', (req, res) => {
-    res.render('avisos.html');
-  });
+  app.get('/aviso', (req, res) => { res.render('avisos.html'); });
+  app.get('/contacto', (req, res) => { res.render('contacto.html'); });
+  app.get('/acerca-de', (req, res) => { res.render('acerca.html'); });
   app.get('/blog', blog.index);
   app.get('/:categoria', blog.category);
   app.get('/:categoria/:entrada', blog.post);

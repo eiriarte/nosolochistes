@@ -1,0 +1,40 @@
+<!DOCTYPE html>{% import "macros.html" as macros %}
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>Aviso legal | No Solo Chistes</title>
+  {{ macros.styles() }}
+  <style media="screen">
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 32px;
+      list-style: lower-roman;
+    }
+  </style>
+</head>
+<body>
+  {{ macros.header() }}
+  <div class="content">
+    <main role="main">
+      <div class="card" style="margin-left: auto; margin-right: auto;">
+        <h1>Acerca de No Solo Chistes</h1>
+        <p>Anteriormente conocida como Feti-chistes, <i>No Solo Chistes</i> es
+          una comunidad que lleva aportando risas desde 2009.</p>
+        <p>Estamos orgullosos de tener una colección de chistes digna de ser publicada en
+          letras de imprenta. Todos y cada uno de nuestros chistes ha sido
+          evaluado, aprobado, clasificado y editado como si fuera a publicarse
+          un libro.</p>
+        <p>Si quieres participar, no dudes en enviarnos tu chiste en nuestro
+          <a href="/contacto">formulario de contacto</a>.</p>
+        <p>¡Felices risas!</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
