@@ -223,6 +223,14 @@
     "level" : 2
   },
   {
+    "_id" : "futbol",
+    "menu" : "fútbol",
+    "title" : "Chistes de Fútbol",
+    "volume" : 2900,
+    "level" : 2,
+    "description" : "El fútbol no es para tomárselo tan en serio. Algunos equipos y algunos futbolistas dan mucha risa. Tómate el deporte con un poco de humor con esta «selección» de chistes de fútbol."
+  },
+  {
     "_id" : "informaticos",
     "menu" : "informáticos",
     "title" : "Chistes de Informáticos",
