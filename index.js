@@ -53,21 +53,6 @@ db.once('open', () => {
       }
       return;
     }
-    if (req.originalUrl.includes('php') &&
-      !req.originalUrl.match(/index\.php|avisos\.php|acerca-de\.php/)) {
-      log.info({
-        msg: 'Conexión bloqueada (PHP). Desconectando…',
-        remote_addr: req.ip || req._remoteAddress ||
-          (req.connection && req.connection.remoteAddress) || undefined,
-        date: (new Date()).toISOString(),
-        method: req.method,
-        user_agent: req.headers['user-agent']
-      });
-      if (_.isObject(req.connection) && _.isFunction(req.connection.end)) {
-        setTimeout(() => req.connection.end(), 5000);
-      }
-      return;
-    }
     next();
   });
   app.use(limiter);
