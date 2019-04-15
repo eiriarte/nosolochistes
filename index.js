@@ -4,7 +4,6 @@ const path = require('path');
 const favicon = require('serve-favicon');
 const compression = require('compression');
 const helmet = require('helmet');
-const RateLimit = require('express-rate-limit');
 const mongoose = require('mongoose');
 const nunjucks = require('nunjucks');
 const _ = require('lodash');
@@ -18,14 +17,6 @@ const log = logger.log;
 mongoose.Promise = global.Promise;
 mongoose.connect(config.dbURI, { useMongoClient: true });
 const db = mongoose.connection;
-
-const limiter = new RateLimit({
-  windowMs: 1000,
-  delayAfter: 2,
-  delayMs: 3*1000,
-  max: 4,
-  headers: false
-});
 
 moment.locale('es');
 
@@ -55,7 +46,6 @@ db.once('open', () => {
     }
     next();
   });
-  app.use(limiter);
   app.use(compression());
   app.use(helmet({
     expectCt: {
