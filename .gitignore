@@ -2,3 +2,4 @@ node_modules
 _db
 _misc
 _ssl
+.env
