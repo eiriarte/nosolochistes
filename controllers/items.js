@@ -9,14 +9,16 @@ const maxItems = 16; // Máximo de chistes por página
 
 exports.getItem = (req, res, next) => {
   const Chiste = mongoose.model('Chiste');
-  Chiste.findOne({ _id: req.params.item }).lean().exec((err, chiste) => {
-    if (err) return next(err);
-    if (!chiste) {
-      return res.status(404).render('404.html', { categories: categories });
-    }
-    addInfo([chiste]);
-    res.render('chiste.html', { chiste: chiste, categories: categories });
-  });
+  Chiste.findOne({ _id: req.params.item })
+    .lean()
+    .exec((err, chiste) => {
+      if (err) return next(err);
+      if (!chiste) {
+        return res.status(404).render('404.html', { categories: categories });
+      }
+      addInfo([chiste]);
+      res.render('chiste.html', { chiste: chiste, categories: categories });
+    });
 };
 
 exports.getCategory = (req, res, next) => {
@@ -27,9 +29,15 @@ exports.getCategory = (req, res, next) => {
     if (err) return next(err);
     if (!items || !items.length) {
       const statusCode = isGone(req.originalUrl) ? 410 : 404;
-      return res.status(statusCode).render('404.html', { categories: categories });
+      return res
+        .status(statusCode)
+        .render('404.html', { categories: categories });
     }
-    const [paginacion, canonical] = getPaginacion(page, items, 'chistes/' + req.params.categoria);
+    const [paginacion, canonical] = getPaginacion(
+      page,
+      items,
+      'chistes/' + req.params.categoria
+    );
     addInfo(items);
     res.render('categoria.html', {
       id: req.params.categoria,
@@ -37,7 +45,7 @@ exports.getCategory = (req, res, next) => {
       categories: categories,
       items: items,
       paginacion: paginacion,
-      canonical: canonical
+      canonical: canonical,
     });
   });
 };
@@ -55,7 +63,7 @@ exports.getPortada = (req, res, next) => {
       categories: categories,
       items: items,
       paginacion: paginacion,
-      canonical: canonical
+      canonical: canonical,
     });
   });
 };
@@ -63,17 +71,25 @@ exports.getPortada = (req, res, next) => {
 exports.getBuenos = (req, res, next) => {
   const [page, skip] = getSkip(req);
   if (req.params.page && !skip) return next('route');
-  const query = getQuery({ valoracion: { $gt: 1 }}, skip, '-valoracion -fecha');
+  const query = getQuery(
+    { valoracion: { $gt: 1 } },
+    skip,
+    '-valoracion -fecha'
+  );
   query.exec((err, items) => {
     if (err) return next(err);
-    const [paginacion, canonical] = getPaginacion(page, items, 'chistes-buenos');
+    const [paginacion, canonical] = getPaginacion(
+      page,
+      items,
+      'chistes-buenos'
+    );
     addInfo(items);
     res.render('buenos.html', {
       id: 'Chistes buenos',
       categories: categories,
       items: items,
       paginacion: paginacion,
-      canonical: canonical
+      canonical: canonical,
     });
   });
 };
@@ -84,21 +100,25 @@ exports.getCortos = (req, res, next) => {
   const query = getQuery({ corto: true }, skip, '-fecha');
   query.exec((err, items) => {
     if (err) return next(err);
-    const [paginacion, canonical] = getPaginacion(page, items, 'chistes-cortos');
+    const [paginacion, canonical] = getPaginacion(
+      page,
+      items,
+      'chistes-cortos'
+    );
     addInfo(items);
     res.render('cortos.html', {
       id: 'Chistes cortos',
       categories: categories,
       items: items,
       paginacion: paginacion,
-      canonical: canonical
+      canonical: canonical,
     });
   });
 };
 
 exports.itemAction = (req, res, next) => {
   const Chiste = mongoose.model('Chiste');
-  const update = { $inc: { }};
+  const update = { $inc: {} };
   const isDownVote = req.body.action === 'vdown';
   if (isDownVote) {
     update.$inc.downs = 1;
@@ -109,14 +129,20 @@ exports.itemAction = (req, res, next) => {
     update.$inc.valoracion = 1;
     if (req.body.reverse) update.$inc.downs = -1;
   }
-  Chiste.findByIdAndUpdate(req.params.item, update, { new: true }, (err, item) => {
-    if (err) return next(err);
-    if (!item) return res.status(500).json({ msg: 'No se ha encontrado el item. '});
-    res.json({
-      votes: isDownVote ? item.downs : item.ups,
-      otherVotes: isDownVote ? item.ups : item.downs
-    });
-  });
+  Chiste.findByIdAndUpdate(
+    req.params.item,
+    update,
+    { new: true },
+    (err, item) => {
+      if (err) return next(err);
+      if (!item)
+        return res.status(500).json({ msg: 'No se ha encontrado el item. ' });
+      res.json({
+        votes: isDownVote ? item.downs : item.ups,
+        otherVotes: isDownVote ? item.ups : item.downs,
+      });
+    }
+  );
 };
 
 function getQuery(conditions, skip, sort) {

@@ -3,3 +3,5 @@ _db
 _misc
 _ssl
 .env
+.vscode
+mongodb_data
