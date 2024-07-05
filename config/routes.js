@@ -19,7 +19,7 @@ module.exports = (app) => {
   app.get('*', (req, res, next) => {
     let site;
     if (!req.secure && config.ssl) {
-      site = config.production ? ('https://' + req.hostname) : config.appURL;
+      site = config.production ? 'https://' + req.hostname : config.appURL;
       return res.redirect(301, site + req.originalUrl);
     }
     next();
@@ -34,8 +34,9 @@ module.exports = (app) => {
   app.get('/chistes-recientes', (req, res) => res.redirect(301, '/'));
   app.get('/index.php', (req, res) => res.redirect(301, '/'));
   app.get('/avisos.php', (req, res) => res.redirect(301, '/aviso'));
-  app.get('/mejores-chistes', (req, res) => res.redirect(301, '/chistes-buenos'));
-
+  app.get('/mejores-chistes', (req, res) =>
+    res.redirect(301, '/chistes-buenos')
+  );
 
   /*************************************************************************
    *  P Á G I N A S
@@ -53,9 +54,15 @@ module.exports = (app) => {
   app.get('/tipos-de-chistes', (req, res) => {
     res.render('categorias.html', { categories: categories });
   });
-  app.get('/aviso', (req, res) => { res.render('avisos.html'); });
-  app.get('/contacto', (req, res) => { res.render('contacto.html'); });
-  app.get('/acerca-de', (req, res) => { res.render('acerca.html'); });
+  app.get('/aviso', (req, res) => {
+    res.render('avisos.html');
+  });
+  app.get('/contacto', (req, res) => {
+    res.render('contacto.html');
+  });
+  app.get('/acerca-de', (req, res) => {
+    res.render('acerca.html');
+  });
   app.get('/blog', blog.index);
   app.get('/:categoria', blog.category);
   app.get('/:categoria/:entrada', blog.post);
@@ -65,10 +72,18 @@ module.exports = (app) => {
   /*************************************************************************
    *  A D M I N I S T R A C I Ó N
    */
-  app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/new', admin.newItem);
-  app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/push', jsonParser, admin.pushItem);
-  app.post('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/update', jsonParser, admin.updateItem);
-  app.get('/xnVYPqfZno4HDlTw6BbbjA5xwoYvqlfaYKtXZ1Jxj3z8/reset', blog.reset);
+  app.get('/' + process.env.ADMIN_FOLDER + '/new', admin.newItem);
+  app.post(
+    '/' + process.env.ADMIN_FOLDER + '/push',
+    jsonParser,
+    admin.pushItem
+  );
+  app.post(
+    '/' + process.env.ADMIN_FOLDER + '/update',
+    jsonParser,
+    admin.updateItem
+  );
+  app.get('/' + process.env.ADMIN_FOLDER + '/reset', blog.reset);
 
   /*************************************************************************
    *  S I T E M A P
@@ -92,7 +107,7 @@ module.exports = (app) => {
     }
     log.error(err);
     if (req.xhr) {
-      return res.status(500).json({ error: 'Algo ha fallado.'});
+      return res.status(500).json({ error: 'Algo ha fallado.' });
     }
     res.status(500).render('500.html');
   });

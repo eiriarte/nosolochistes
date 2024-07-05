@@ -1,7 +1,0 @@
----
-title: Frikismo
----
-
-h1. Categoría → Frikismo
-
-Esta categoría está aún en ropa interior, pero ya puedes leer el artículo sobre el "día del Orgullo Friki":/frikismo/dia-del-orgullo-friki-25-de-mayo.

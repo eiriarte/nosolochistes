@@ -1,7 +1,0 @@
----
-title: Zombies
----
-
-h1. Categoría → Zombies
-
-Esta categoría está aún en ropa interior, pero ya puedes leer el artículo sobre "las mejores comedias de zombis":/zombies/comedias-de-zombies.
